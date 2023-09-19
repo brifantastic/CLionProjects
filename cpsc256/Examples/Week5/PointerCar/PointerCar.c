@@ -13,7 +13,7 @@
 PointerCar InitCar(){
    
    PointerCar newCar;
-   PointerCar* pNewCar;
+   PointerCar* pNewCar = &newCar;
  
    newCar.miles = 0;
    newCar.age = 0.0;
