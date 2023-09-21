@@ -131,8 +131,7 @@ int main(int argc, char** argv) {
     
     cout << "S1 = <" << s1 << ">" << endl;
     cout << "S2 = <" << s2 << ">" << endl;
-    
-    
+
     string sphrase;
     
     cout << "Enter a name on a single line: " << endl;
