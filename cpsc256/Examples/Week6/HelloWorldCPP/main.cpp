@@ -15,6 +15,8 @@
 // the libraries in C++ are a bit different than in C
 #include <iostream> // cout, endl, fixed
 #include <iomanip> // setprecision, setw
+#include <ios> // streamsize
+#include <limits> // numeric_limits
 #include <cmath> // C math library functions
 #include <string> // The string class
 
@@ -136,10 +138,72 @@ int main(int argc, char** argv) {
     
     cout << "Enter a name on a single line: " << endl;
     
-    cin.ignore();
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    //cin.ignore();
+    //cin.ignore();
+
     getline(cin,sphrase);
     
     cout << "Name = <" << sphrase << ">" << endl;
+
+    // Essentially, for std::cin statements you use ignore
+    // before you do a getline call, because when a user
+    // inputs something with std::cin, they hit enter and a '\n' char
+    // gets into the cin buffer. Then, if you use getline, it gets
+    // the newline char instead of the string you want.
+    //
+    // So you do a std::cin.ignore(1000,'\n') and that should clear
+    // the buffer up to the string that you want. (The 1000 is put
+    // there to skip over a specific number of chars before the specified
+    // delimiter, in this case, the '\n' newline character.)
+    //
+    // The numeric_limits<streamsize>::max() is a way to specify
+    // the maximum number of characters to ignore.  In this case,
+    // we are ignoring all characters up to the newline character.
+    //
+    // okay, so what happened in class when I just had cin.ignore()
+    // without any arguments, and then entered 'Edward James Brash' as
+    // the name for the string?
+    //
+    // cin.ignore() without any arguments ignores up to the next delimiter
+    // or character, by default.  Let's break this down:
+    //
+    // When I entered 'Edward James Brash' as the name, the cin buffer
+    // interprets this as 'Edward<space>James<space>Brash<newline>'.
+    // By default, cin considers <space>, <newline>, and <tab> as valid
+    // delimiter characters.
+    //
+    // So, the first cin >> s1; statement took 'Edward' as the input, saw
+    // the first <space> delimiter, and stopped.  The second cin >> s2;
+    // statement took 'James' as the input, saw the second <space> delimiter,
+    // and stopped. Now, the point here is that that second <space> delimiter
+    // is still in the input stream; it does not throw it away.  So, when
+    // we get to the cin.ignore() statement with no arguments, the default
+    // behaviour is to flush up to the next delimiter character, WHICH IS
+    // STILL THAT SECOND SPACE CHARACTER!  So, all that it does is to flush that
+    // that second space character, and then the following getline() statement
+    // starts with 'Brash<newline>' and processes that.
+    //
+    // What if we put TWO cin.ignore() statements?  The first would flush
+    // the second <space> character, and the second would flush the 'B'
+    // character, and then the getline() statement would start with 'rash<newline>'
+    //
+    // The bottom line here is that you need to be careful with cin.ignore()
+    // statements, and you need to understand what is in the input stream
+    // before you use them.
+
+
+
+    int x;
+    char str[80];
+
+    cout << "Enter a number, hit enter, and then a phrase, and then enter: " << endl;
+    cin >> x;
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    cin.getline(str,80);
+
+    cout << "Number = " << x << endl;
+    cout << "String = " << str << endl;
 
     return 0;
 }
