@@ -36,8 +36,9 @@ add_executable(SimpleCar Examples/Week5/SimpleCar/main.c Examples/Week5/SimpleCa
 add_executable(CoinFlip Examples/Week5/CoinFlip/main.c Examples/Week5/CoinFlip/Coin.c)
 # Week 6
 add_executable(HelloWorldCPP Examples/Week6/HelloWorldCPP/main.cpp)
-add_executable(BasicObjects Examples/Week6/BasicObjects/main.cpp Examples/Week6/BasicObjects/Restaurant.cpp)
+add_executable(BasicObjects Examples/Week7/BasicObjects/main.cpp Examples/Week7/BasicObjects/Restaurant.cpp)
 add_executable(PassBy Examples/Week6/PassBy/main.cpp)
-add_executable(PointersCPP Examples/Week6/PointersCPP/main.cpp)
+add_executable(PointersCPP Examples/Week7/PointersCPP/main.cpp)
 add_executable(BasicVectorCPP Examples/Week6/BasicVectorCPP/main.cpp)
 add_executable(FunctionOverloading Examples/Week6/FunctionOverloading/main.cpp)
+add_executable(MultipleClasses Examples/Week7/MultipleClasses/main.cpp)

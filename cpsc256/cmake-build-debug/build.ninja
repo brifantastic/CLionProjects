@@ -54,6 +54,8 @@ build CMakeFiles/HelloWorld.dir/Examples/Week1/HelloWorld/main.c.o: C_COMPILER__
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/HelloWorld.dir
   OBJECT_FILE_DIR = CMakeFiles/HelloWorld.dir/Examples/Week1/HelloWorld
+  TARGET_COMPILE_PDB = CMakeFiles/HelloWorld.dir/
+  TARGET_PDB = HelloWorld.pdb
 
 
 # =============================================================================
@@ -68,8 +70,9 @@ build HelloWorld: C_EXECUTABLE_LINKER__HelloWorld_Debug CMakeFiles/HelloWorld.di
   OBJECT_DIR = CMakeFiles/HelloWorld.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/HelloWorld.dir/
   TARGET_FILE = HelloWorld
-  TARGET_PDB = HelloWorld.dbg
+  TARGET_PDB = HelloWorld.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target PrimitiveDataTypes
@@ -85,6 +88,8 @@ build CMakeFiles/PrimitiveDataTypes.dir/Examples/Week1/PrimitiveDataTypes/main.c
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/PrimitiveDataTypes.dir
   OBJECT_FILE_DIR = CMakeFiles/PrimitiveDataTypes.dir/Examples/Week1/PrimitiveDataTypes
+  TARGET_COMPILE_PDB = CMakeFiles/PrimitiveDataTypes.dir/
+  TARGET_PDB = PrimitiveDataTypes.pdb
 
 
 # =============================================================================
@@ -99,8 +104,9 @@ build PrimitiveDataTypes: C_EXECUTABLE_LINKER__PrimitiveDataTypes_Debug CMakeFil
   OBJECT_DIR = CMakeFiles/PrimitiveDataTypes.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PrimitiveDataTypes.dir/
   TARGET_FILE = PrimitiveDataTypes
-  TARGET_PDB = PrimitiveDataTypes.dbg
+  TARGET_PDB = PrimitiveDataTypes.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FileReader
@@ -116,6 +122,8 @@ build CMakeFiles/FileReader.dir/Examples/Week2/FileReader/main.c.o: C_COMPILER__
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FileReader.dir
   OBJECT_FILE_DIR = CMakeFiles/FileReader.dir/Examples/Week2/FileReader
+  TARGET_COMPILE_PDB = CMakeFiles/FileReader.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader.pdb
 
 
 # =============================================================================
@@ -130,8 +138,9 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader: C
   OBJECT_DIR = CMakeFiles/FileReader.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/FileReader.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader
-  TARGET_PDB = FileReader.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CSVFileReader
@@ -147,6 +156,8 @@ build CMakeFiles/CSVFileReader.dir/Examples/Week2/CSVFileReader/main.c.o: C_COMP
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/CSVFileReader.dir
   OBJECT_FILE_DIR = CMakeFiles/CSVFileReader.dir/Examples/Week2/CSVFileReader
+  TARGET_COMPILE_PDB = CMakeFiles/CSVFileReader.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader.pdb
 
 
 # =============================================================================
@@ -161,8 +172,9 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileRea
   OBJECT_DIR = CMakeFiles/CSVFileReader.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/CSVFileReader.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader
-  TARGET_PDB = CSVFileReader.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Declarations
@@ -178,6 +190,8 @@ build CMakeFiles/Declarations.dir/Examples/Week3/Declarations/main.c.o: C_COMPIL
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Declarations.dir
   OBJECT_FILE_DIR = CMakeFiles/Declarations.dir/Examples/Week3/Declarations
+  TARGET_COMPILE_PDB = CMakeFiles/Declarations.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations.pdb
 
 
 # =============================================================================
@@ -192,8 +206,9 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declaratio
   OBJECT_DIR = CMakeFiles/Declarations.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/Declarations.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations
-  TARGET_PDB = Declarations.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FormatSpecifiers
@@ -209,6 +224,8 @@ build CMakeFiles/FormatSpecifiers.dir/Examples/Week3/FormatSpecifiers/main.c.o: 
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FormatSpecifiers.dir
   OBJECT_FILE_DIR = CMakeFiles/FormatSpecifiers.dir/Examples/Week3/FormatSpecifiers
+  TARGET_COMPILE_PDB = CMakeFiles/FormatSpecifiers.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers.pdb
 
 
 # =============================================================================
@@ -223,8 +240,9 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpec
   OBJECT_DIR = CMakeFiles/FormatSpecifiers.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/FormatSpecifiers.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers
-  TARGET_PDB = FormatSpecifiers.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FunctionExample
@@ -240,6 +258,8 @@ build CMakeFiles/FunctionExample.dir/Examples/Week3/FunctionExample/main.c.o: C_
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FunctionExample.dir
   OBJECT_FILE_DIR = CMakeFiles/FunctionExample.dir/Examples/Week3/FunctionExample
+  TARGET_COMPILE_PDB = CMakeFiles/FunctionExample.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample.pdb
 
 
 # =============================================================================
@@ -254,8 +274,9 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionEx
   OBJECT_DIR = CMakeFiles/FunctionExample.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/FunctionExample.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample
-  TARGET_PDB = FunctionExample.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FileStatistics
@@ -271,18 +292,24 @@ build CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/main.c.o: C_CO
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FileStatistics.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics
+  TARGET_COMPILE_PDB = CMakeFiles/FileStatistics.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics.pdb
 
 build CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/mean.c.o: C_COMPILER__FileStatistics_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/mean.c || cmake_object_order_depends_target_FileStatistics
   DEP_FILE = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/mean.c.o.d
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FileStatistics.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics
+  TARGET_COMPILE_PDB = CMakeFiles/FileStatistics.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics.pdb
 
 build CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/stdev.c.o: C_COMPILER__FileStatistics_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/stdev.c || cmake_object_order_depends_target_FileStatistics
   DEP_FILE = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/stdev.c.o.d
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FileStatistics.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics
+  TARGET_COMPILE_PDB = CMakeFiles/FileStatistics.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics.pdb
 
 
 # =============================================================================
@@ -297,8 +324,9 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStati
   OBJECT_DIR = CMakeFiles/FileStatistics.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/FileStatistics.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics
-  TARGET_PDB = FileStatistics.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FileStatistics_Headers
@@ -314,18 +342,24 @@ build CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Header
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FileStatistics_Headers.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers
+  TARGET_COMPILE_PDB = CMakeFiles/FileStatistics_Headers.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers.pdb
 
 build CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/mean.c.o: C_COMPILER__FileStatistics_Headers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/mean.c || cmake_object_order_depends_target_FileStatistics_Headers
   DEP_FILE = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/mean.c.o.d
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FileStatistics_Headers.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers
+  TARGET_COMPILE_PDB = CMakeFiles/FileStatistics_Headers.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers.pdb
 
 build CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/stdev.c.o: C_COMPILER__FileStatistics_Headers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/stdev.c || cmake_object_order_depends_target_FileStatistics_Headers
   DEP_FILE = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/stdev.c.o.d
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FileStatistics_Headers.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers
+  TARGET_COMPILE_PDB = CMakeFiles/FileStatistics_Headers.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers.pdb
 
 
 # =============================================================================
@@ -340,8 +374,9 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/F
   OBJECT_DIR = CMakeFiles/FileStatistics_Headers.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/FileStatistics_Headers.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers
-  TARGET_PDB = FileStatistics_Headers.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BasicPointers
@@ -357,12 +392,16 @@ build CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers/main.c.o: C_COMP
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BasicPointers.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers
+  TARGET_COMPILE_PDB = CMakeFiles/BasicPointers.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers.pdb
 
 build CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers/functions.c.o: C_COMPILER__BasicPointers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/functions.c || cmake_object_order_depends_target_BasicPointers
   DEP_FILE = CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers/functions.c.o.d
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BasicPointers.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers
+  TARGET_COMPILE_PDB = CMakeFiles/BasicPointers.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers.pdb
 
 
 # =============================================================================
@@ -377,8 +416,9 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPoint
   OBJECT_DIR = CMakeFiles/BasicPointers.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/BasicPointers.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers
-  TARGET_PDB = BasicPointers.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target VoidPointers
@@ -394,6 +434,8 @@ build CMakeFiles/VoidPointers.dir/Examples/Week4/VoidPointers/main.c.o: C_COMPIL
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/VoidPointers.dir
   OBJECT_FILE_DIR = CMakeFiles/VoidPointers.dir/Examples/Week4/VoidPointers
+  TARGET_COMPILE_PDB = CMakeFiles/VoidPointers.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers.pdb
 
 
 # =============================================================================
@@ -408,8 +450,9 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointe
   OBJECT_DIR = CMakeFiles/VoidPointers.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/VoidPointers.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers
-  TARGET_PDB = VoidPointers.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target QuickSort
@@ -425,6 +468,8 @@ build CMakeFiles/QuickSort.dir/Examples/Week4/QuickSort/main.c.o: C_COMPILER__Qu
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/QuickSort.dir
   OBJECT_FILE_DIR = CMakeFiles/QuickSort.dir/Examples/Week4/QuickSort
+  TARGET_COMPILE_PDB = CMakeFiles/QuickSort.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort.pdb
 
 
 # =============================================================================
@@ -439,8 +484,9 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort:
   OBJECT_DIR = CMakeFiles/QuickSort.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/QuickSort.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort
-  TARGET_PDB = QuickSort.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Restaurant_C_Example
@@ -456,6 +502,8 @@ build CMakeFiles/Restaurant_C_Example.dir/Examples/Week5/Restaurant_C_Example/ma
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Restaurant_C_Example.dir
   OBJECT_FILE_DIR = CMakeFiles/Restaurant_C_Example.dir/Examples/Week5/Restaurant_C_Example
+  TARGET_COMPILE_PDB = CMakeFiles/Restaurant_C_Example.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example.pdb
 
 
 # =============================================================================
@@ -470,8 +518,9 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant
   OBJECT_DIR = CMakeFiles/Restaurant_C_Example.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/Restaurant_C_Example.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example
-  TARGET_PDB = Restaurant_C_Example.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target PointerCar
@@ -487,12 +536,16 @@ build CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/main.c.o: C_COMPILER__
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/PointerCar.dir
   OBJECT_FILE_DIR = CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar
+  TARGET_COMPILE_PDB = CMakeFiles/PointerCar.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar.pdb
 
 build CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/PointerCar.c.o: C_COMPILER__PointerCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/PointerCar.c || cmake_object_order_depends_target_PointerCar
   DEP_FILE = CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/PointerCar.c.o.d
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/PointerCar.dir
   OBJECT_FILE_DIR = CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar
+  TARGET_COMPILE_PDB = CMakeFiles/PointerCar.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar.pdb
 
 
 # =============================================================================
@@ -507,8 +560,9 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar
   OBJECT_DIR = CMakeFiles/PointerCar.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PointerCar.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar
-  TARGET_PDB = PointerCar.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target SimpleCar
@@ -524,12 +578,16 @@ build CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/main.c.o: C_COMPILER__Si
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/SimpleCar.dir
   OBJECT_FILE_DIR = CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar
+  TARGET_COMPILE_PDB = CMakeFiles/SimpleCar.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar.pdb
 
 build CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/SimpleCar.c.o: C_COMPILER__SimpleCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/SimpleCar.c || cmake_object_order_depends_target_SimpleCar
   DEP_FILE = CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/SimpleCar.c.o.d
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/SimpleCar.dir
   OBJECT_FILE_DIR = CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar
+  TARGET_COMPILE_PDB = CMakeFiles/SimpleCar.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar.pdb
 
 
 # =============================================================================
@@ -544,8 +602,9 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar:
   OBJECT_DIR = CMakeFiles/SimpleCar.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/SimpleCar.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar
-  TARGET_PDB = SimpleCar.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CoinFlip
@@ -561,12 +620,16 @@ build CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/main.c.o: C_COMPILER__Coin
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/CoinFlip.dir
   OBJECT_FILE_DIR = CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip
+  TARGET_COMPILE_PDB = CMakeFiles/CoinFlip.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip.pdb
 
 build CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/Coin.c.o: C_COMPILER__CoinFlip_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/CoinFlip/Coin.c || cmake_object_order_depends_target_CoinFlip
   DEP_FILE = CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/Coin.c.o.d
   FLAGS = -g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/CoinFlip.dir
   OBJECT_FILE_DIR = CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip
+  TARGET_COMPILE_PDB = CMakeFiles/CoinFlip.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip.pdb
 
 
 # =============================================================================
@@ -581,8 +644,9 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip: 
   OBJECT_DIR = CMakeFiles/CoinFlip.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/CoinFlip.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip
-  TARGET_PDB = CoinFlip.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target HelloWorldCPP
@@ -598,6 +662,8 @@ build CMakeFiles/HelloWorldCPP.dir/Examples/Week6/HelloWorldCPP/main.cpp.o: CXX_
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/HelloWorldCPP.dir
   OBJECT_FILE_DIR = CMakeFiles/HelloWorldCPP.dir/Examples/Week6/HelloWorldCPP
+  TARGET_COMPILE_PDB = CMakeFiles/HelloWorldCPP.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP.pdb
 
 
 # =============================================================================
@@ -612,8 +678,9 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorld
   OBJECT_DIR = CMakeFiles/HelloWorldCPP.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/HelloWorldCPP.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP
-  TARGET_PDB = HelloWorldCPP.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BasicObjects
@@ -624,17 +691,21 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorld
 
 build cmake_object_order_depends_target_BasicObjects: phony || CMakeFiles/BasicObjects.dir
 
-build CMakeFiles/BasicObjects.dir/Examples/Week6/BasicObjects/main.cpp.o: CXX_COMPILER__BasicObjects_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week6/BasicObjects/main.cpp || cmake_object_order_depends_target_BasicObjects
-  DEP_FILE = CMakeFiles/BasicObjects.dir/Examples/Week6/BasicObjects/main.cpp.o.d
+build CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/main.cpp.o: CXX_COMPILER__BasicObjects_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/main.cpp || cmake_object_order_depends_target_BasicObjects
+  DEP_FILE = CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BasicObjects.dir
-  OBJECT_FILE_DIR = CMakeFiles/BasicObjects.dir/Examples/Week6/BasicObjects
+  OBJECT_FILE_DIR = CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects
+  TARGET_COMPILE_PDB = CMakeFiles/BasicObjects.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects.pdb
 
-build CMakeFiles/BasicObjects.dir/Examples/Week6/BasicObjects/Restaurant.cpp.o: CXX_COMPILER__BasicObjects_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week6/BasicObjects/Restaurant.cpp || cmake_object_order_depends_target_BasicObjects
-  DEP_FILE = CMakeFiles/BasicObjects.dir/Examples/Week6/BasicObjects/Restaurant.cpp.o.d
+build CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/Restaurant.cpp.o: CXX_COMPILER__BasicObjects_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/Restaurant.cpp || cmake_object_order_depends_target_BasicObjects
+  DEP_FILE = CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/Restaurant.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BasicObjects.dir
-  OBJECT_FILE_DIR = CMakeFiles/BasicObjects.dir/Examples/Week6/BasicObjects
+  OBJECT_FILE_DIR = CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects
+  TARGET_COMPILE_PDB = CMakeFiles/BasicObjects.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects.pdb
 
 
 # =============================================================================
@@ -644,13 +715,14 @@ build CMakeFiles/BasicObjects.dir/Examples/Week6/BasicObjects/Restaurant.cpp.o: 
 #############################################
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects: CXX_EXECUTABLE_LINKER__BasicObjects_Debug CMakeFiles/BasicObjects.dir/Examples/Week6/BasicObjects/main.cpp.o CMakeFiles/BasicObjects.dir/Examples/Week6/BasicObjects/Restaurant.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects: CXX_EXECUTABLE_LINKER__BasicObjects_Debug CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/main.cpp.o CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/Restaurant.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/BasicObjects.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/BasicObjects.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects
-  TARGET_PDB = BasicObjects.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target PassBy
@@ -666,6 +738,8 @@ build CMakeFiles/PassBy.dir/Examples/Week6/PassBy/main.cpp.o: CXX_COMPILER__Pass
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/PassBy.dir
   OBJECT_FILE_DIR = CMakeFiles/PassBy.dir/Examples/Week6/PassBy
+  TARGET_COMPILE_PDB = CMakeFiles/PassBy.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy.pdb
 
 
 # =============================================================================
@@ -680,8 +754,9 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy: CX
   OBJECT_DIR = CMakeFiles/PassBy.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PassBy.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy
-  TARGET_PDB = PassBy.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target PointersCPP
@@ -692,11 +767,13 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy: CX
 
 build cmake_object_order_depends_target_PointersCPP: phony || CMakeFiles/PointersCPP.dir
 
-build CMakeFiles/PointersCPP.dir/Examples/Week6/PointersCPP/main.cpp.o: CXX_COMPILER__PointersCPP_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week6/PointersCPP/main.cpp || cmake_object_order_depends_target_PointersCPP
-  DEP_FILE = CMakeFiles/PointersCPP.dir/Examples/Week6/PointersCPP/main.cpp.o.d
+build CMakeFiles/PointersCPP.dir/Examples/Week7/PointersCPP/main.cpp.o: CXX_COMPILER__PointersCPP_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week7/PointersCPP/main.cpp || cmake_object_order_depends_target_PointersCPP
+  DEP_FILE = CMakeFiles/PointersCPP.dir/Examples/Week7/PointersCPP/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/PointersCPP.dir
-  OBJECT_FILE_DIR = CMakeFiles/PointersCPP.dir/Examples/Week6/PointersCPP
+  OBJECT_FILE_DIR = CMakeFiles/PointersCPP.dir/Examples/Week7/PointersCPP
+  TARGET_COMPILE_PDB = CMakeFiles/PointersCPP.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP.pdb
 
 
 # =============================================================================
@@ -706,13 +783,14 @@ build CMakeFiles/PointersCPP.dir/Examples/Week6/PointersCPP/main.cpp.o: CXX_COMP
 #############################################
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP: CXX_EXECUTABLE_LINKER__PointersCPP_Debug CMakeFiles/PointersCPP.dir/Examples/Week6/PointersCPP/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP: CXX_EXECUTABLE_LINKER__PointersCPP_Debug CMakeFiles/PointersCPP.dir/Examples/Week7/PointersCPP/main.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/PointersCPP.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/PointersCPP.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP
-  TARGET_PDB = PointersCPP.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target BasicVectorCPP
@@ -728,6 +806,8 @@ build CMakeFiles/BasicVectorCPP.dir/Examples/Week6/BasicVectorCPP/main.cpp.o: CX
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BasicVectorCPP.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicVectorCPP.dir/Examples/Week6/BasicVectorCPP
+  TARGET_COMPILE_PDB = CMakeFiles/BasicVectorCPP.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP.pdb
 
 
 # =============================================================================
@@ -742,8 +822,9 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVecto
   OBJECT_DIR = CMakeFiles/BasicVectorCPP.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/BasicVectorCPP.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP
-  TARGET_PDB = BasicVectorCPP.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target FunctionOverloading
@@ -759,6 +840,8 @@ build CMakeFiles/FunctionOverloading.dir/Examples/Week6/FunctionOverloading/main
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FunctionOverloading.dir
   OBJECT_FILE_DIR = CMakeFiles/FunctionOverloading.dir/Examples/Week6/FunctionOverloading
+  TARGET_COMPILE_PDB = CMakeFiles/FunctionOverloading.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading.pdb
 
 
 # =============================================================================
@@ -773,8 +856,43 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOv
   OBJECT_DIR = CMakeFiles/FunctionOverloading.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/FunctionOverloading.dir/
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading
-  TARGET_PDB = FunctionOverloading.dbg
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MultipleClasses
+
+
+#############################################
+# Order-only phony target for MultipleClasses
+
+build cmake_object_order_depends_target_MultipleClasses: phony || CMakeFiles/MultipleClasses.dir
+
+build CMakeFiles/MultipleClasses.dir/Examples/Week7/MultipleClasses/main.cpp.o: CXX_COMPILER__MultipleClasses_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week7/MultipleClasses/main.cpp || cmake_object_order_depends_target_MultipleClasses
+  DEP_FILE = CMakeFiles/MultipleClasses.dir/Examples/Week7/MultipleClasses/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/MultipleClasses.dir
+  OBJECT_FILE_DIR = CMakeFiles/MultipleClasses.dir/Examples/Week7/MultipleClasses
+  TARGET_COMPILE_PDB = CMakeFiles/MultipleClasses.dir/
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MultipleClasses
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses: CXX_EXECUTABLE_LINKER__MultipleClasses_Debug CMakeFiles/MultipleClasses.dir/Examples/Week7/MultipleClasses/main.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/MultipleClasses.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/MultipleClasses.dir/
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses
+  TARGET_PDB = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses.pdb
 
 
 #############################################
@@ -828,6 +946,8 @@ build FunctionOverloading: phony /Users/brash/CLionProjects/cpsc256/Examples/Wee
 
 build HelloWorldCPP: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP
 
+build MultipleClasses: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses
+
 build PassBy: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy
 
 build PointerCar: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar
@@ -850,7 +970,7 @@ build VoidPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/Basi
 #############################################
 # Folder: /Users/brash/CLionProjects/cpsc256/cmake-build-debug
 
-build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading
+build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses
 
 # =============================================================================
 # Built-in targets
@@ -859,14 +979,14 @@ build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc25
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/brash/CLionProjects/cpsc256/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Tasking-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/brash/CLionProjects/cpsc256/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/brash/CLionProjects/cpsc256/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Tasking-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/brash/CLionProjects/cpsc256/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
 
 
 #############################################
