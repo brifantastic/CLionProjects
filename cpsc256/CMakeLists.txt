@@ -46,3 +46,5 @@ add_executable(MultipleClasses Examples/Week7/MultipleClasses/main.cpp)
 
 # Week 8
 add_executable(ArtistAndArtwork Examples/Week8/ArtistAndArtwork/main.cpp Examples/Week8/ArtistAndArtwork/Artist.cpp Examples/Week8/ArtistAndArtwork/Artwork.cpp)
+add_executable(CopyConstructorExample Examples/Week8/CopyConstructorExample/main.cpp)
+add_executable(PointersCPP Examples/Week8/PointersCPP/main.cpp)

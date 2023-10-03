@@ -819,6 +819,68 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndA
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork
   TARGET_PDB = ArtistAndArtwork.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CopyConstructorExample
+
+
+#############################################
+# Order-only phony target for CopyConstructorExample
+
+build cmake_object_order_depends_target_CopyConstructorExample: phony || CMakeFiles/CopyConstructorExample.dir
+
+build CMakeFiles/CopyConstructorExample.dir/Examples/Week8/CopyConstructorExample/main.cpp.o: CXX_COMPILER__CopyConstructorExample_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week8/CopyConstructorExample/main.cpp || cmake_object_order_depends_target_CopyConstructorExample
+  DEP_FILE = CMakeFiles/CopyConstructorExample.dir/Examples/Week8/CopyConstructorExample/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/CopyConstructorExample.dir
+  OBJECT_FILE_DIR = CMakeFiles/CopyConstructorExample.dir/Examples/Week8/CopyConstructorExample
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CopyConstructorExample
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample: CXX_EXECUTABLE_LINKER__CopyConstructorExample_Debug CMakeFiles/CopyConstructorExample.dir/Examples/Week8/CopyConstructorExample/main.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/CopyConstructorExample.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample
+  TARGET_PDB = CopyConstructorExample.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PointersCPP
+
+
+#############################################
+# Order-only phony target for PointersCPP
+
+build cmake_object_order_depends_target_PointersCPP: phony || CMakeFiles/PointersCPP.dir
+
+build CMakeFiles/PointersCPP.dir/Examples/Week8/PointersCPP/main.cpp.o: CXX_COMPILER__PointersCPP_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week8/PointersCPP/main.cpp || cmake_object_order_depends_target_PointersCPP
+  DEP_FILE = CMakeFiles/PointersCPP.dir/Examples/Week8/PointersCPP/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/PointersCPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/PointersCPP.dir/Examples/Week8/PointersCPP
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PointersCPP
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP: CXX_EXECUTABLE_LINKER__PointersCPP_Debug CMakeFiles/PointersCPP.dir/Examples/Week8/PointersCPP/main.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/PointersCPP.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP
+  TARGET_PDB = PointersCPP.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -857,6 +919,8 @@ build CSVFileReader: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSV
 
 build CoinFlip: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip
 
+build CopyConstructorExample: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample
+
 build Declarations: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations
 
 build FileReader: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader
@@ -879,6 +943,8 @@ build PassBy: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPoint
 
 build PointerCar: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar
 
+build PointersCPP: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP
+
 build QuickSort: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort
 
 build Restaurant_C_Example: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example
@@ -895,7 +961,7 @@ build VoidPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/Basi
 #############################################
 # Folder: /Users/brash/CLionProjects/cpsc256/cmake-build-debug
 
-build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork
+build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP
 
 # =============================================================================
 # Built-in targets

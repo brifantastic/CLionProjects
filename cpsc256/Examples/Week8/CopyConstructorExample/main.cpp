@@ -16,18 +16,19 @@
 using namespace std;
 
 class MyClassInt {
-  public:
+
+    private:
+        int dataObject;
+
+    public:
       
-     MyClassInt() {
-        cout << "MyClassInt Constructor called." << endl;
-        dataObject = 0;
-     }
+        MyClassInt() {
+            cout << "MyClassInt Constructor called." << endl;
+            dataObject = 0;
+        }
 
-     void SetDataObject(const int i) { dataObject = i; }
-     int GetDataObject() const { return dataObject; }
-
-  private:
-     int dataObject;
+        void SetDataObject(const int i) { dataObject = i; }
+        int GetDataObject() const { return dataObject; }
 };
 
 

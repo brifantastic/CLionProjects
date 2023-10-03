@@ -21,7 +21,6 @@ int main(int argc, char** argv) {
     // calls the initialization constructor.
     Restaurant schooners; // default values, id = 1001
     Restaurant moes; // default values, id = 1002
-    //Restaurant mickydees;
     Restaurant mickydees("MacDonald's",-10000,"$","Fast Food"); // specified values, id = 1003
     
     cout << "Initial Definition of MacDonald's" << endl;
@@ -72,6 +71,22 @@ int main(int argc, char** argv) {
     cout << "Rating = " << myFavorite.GetRating() << endl;
     cout << "Price = " << myFavorite.GetPrice() << endl;
     cout << "Cuisine Type = " << myFavorite.GetCuisineType() << endl;
+    cout << endl;
+
+    cout << "Address of myFavorite in main:  " << &myFavorite << endl;
+    cout << "Address of myRestaurants[1] in main:  " << &myRestaurants[1] << endl;
+
+    // Change one of the internal values of the Moe's object in the vector
+    // and see if it changes the value in the myFavorite object.
+
+    myRestaurants[1].SetRating(1);
+
+    cout << "My favorite restaurant: " << endl;
+    cout << myFavorite.GetName() << endl;
+    cout << "Rating = " << myFavorite.GetRating() << endl;
+    cout << "Price = " << myFavorite.GetPrice() << endl;
+    cout << "Cuisine Type = " << myFavorite.GetCuisineType() << endl;
+
     
     return 0;
 }
@@ -95,8 +110,28 @@ Restaurant getFavorite(vector<Restaurant> myRestaurants) {
         }
     }
     cout << endl;
-    
-    bestRestaurant = myRestaurants[maxRatingIndex]; // copy!!! This is what "=" does by default.
+
+    // Extract the best restaurant from the vector of restaurant objects
+    //
+    // Note that we are using the assignment operator here ...
+    // we are copying the contents of the object in the vector to the
+    // object bestRestaurant.  This is a shallow copy, and we will
+    // discuss this in class.
+    //
+    // Shallow copy:
+    // A shallow copy copies the contents of the object, but does not
+    // copy any pointers that might be in the object.  In this case,
+    // we are copying the contents of the object. If we had a pointer
+    // in the object, we would be copying the pointer, but not the
+    // contents of the object that the pointer points to!!!
+    //
+    // Note that when we are dealing with objects that contain pointers, we need
+    // to be careful about how we copy objects.  We will discuss this
+    // in class, as well!!!
+
+    bestRestaurant = myRestaurants[maxRatingIndex];
+    cout << "Address of bestRestaurant in getFavorite:  " << &bestRestaurant << endl;
+    cout << "Address of myRestaurants[maxRatingIndex] in getFavorite:  " << &myRestaurants[maxRatingIndex] << endl;
     
     return bestRestaurant;
     
