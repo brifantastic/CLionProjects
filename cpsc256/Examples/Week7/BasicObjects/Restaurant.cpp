@@ -5,14 +5,14 @@
 // 2.  In the case of the member variable id, initialize it to the static member variable nextID.
 // 3.  Increment nextID so that the next object created will have a different id.
 
-Restaurant::Restaurant() {
-    name = "No Name";
-    rating = -1;
-    price = "No Price";
-    cuisine = "No Type";
-    id = nextID;
-    ++nextID;
-}
+//Restaurant::Restaurant() {
+//    name = "No Name";
+//    rating = -1;
+//    price = "No Price";
+//    cuisine = "No Type";
+//    id = nextID;
+//    ++nextID;
+//}
 
 // Initialization constructor:
 // 1.  Initialize all private variables to the values passed in as parameters.
