@@ -57,6 +57,8 @@ int Car::GetOdometer() const {
    return this->odometer;
 }
 
+////////////// Function to get total miles of all cars in a "garage" ////////////////////////
+
 int GetTotalMiles(vector<Car*> carsList) {
    int totalMiles;
    unsigned int i;
@@ -70,7 +72,7 @@ int GetTotalMiles(vector<Car*> carsList) {
    return totalMiles;
 }
 
-//////////////////////////////////////
+///////////////////// Main Program ////////////////////
 
 int main() {
    Point* pp1 = new Point; // define a pointer to an object of type Point.
@@ -97,7 +99,7 @@ int main() {
    pp1->Print();     // Could be anything!!!!!!!
    pp2->Print();
    
-   // Create an vector of pointers to Car objects ... a garage :)
+   // Create a vector of pointers to Car objects ... a garage :)
    
    vector<Car*> garage;
    garage.push_back(new Car(10));

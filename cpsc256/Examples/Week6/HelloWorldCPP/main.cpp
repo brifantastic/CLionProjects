@@ -192,8 +192,6 @@ int main(int argc, char** argv) {
     // statements, and you need to understand what is in the input stream
     // before you use them.
 
-
-
     int x;
     char str[80];
 
