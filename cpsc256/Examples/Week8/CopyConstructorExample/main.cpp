@@ -36,41 +36,52 @@ class MyClassIntPointer {
   public:
       
      MyClassIntPointer() {
-        cout << "MyClassIntPointer Constructor called." << endl;
+
         dataObject = new int; // Allocate data object
         *dataObject = 0;
+        cout << "MyClassIntPointer Constructing dataObject at " << dataObject << endl;
      }
      
      ~MyClassIntPointer() {
-        cout << "MyClassIntPointer Destructor called." << endl;
+        cout << "MyClassIntPointer Deleting dataObject at " << dataObject << endl;
         delete dataObject;
      }
      
      void SetDataObject(const int i) { *dataObject = i; }
      int GetDataObject() const { return *dataObject; }
+     int* GetDataObjectPointer() const { return dataObject; }
      
      // Copy constructor
      MyClassIntPointer(const MyClassIntPointer& origObject) {
-        cout << "Copy constructor called." << endl;
+
         dataObject = new int; // Allocate sub-object
-        *dataObject = *(origObject.dataObject);  
+        *dataObject = *(origObject.dataObject);
+        cout << "MyClassIntPointer Copy Constructor called" << endl;
+        cout << "MyClassIntPointer new dataObject at " << dataObject << endl;
+        cout << "MyClassIntPointer origObject.dataObject at " << origObject.dataObject << endl;
      }
      
      MyClassIntPointer& operator=(const MyClassIntPointer& objToCopy) {
-     
-          cout << "Assignment op called." << endl;
    
           if (this != &objToCopy) {             // 1. Don't self-assign
               delete dataObject;                  // 2. Delete old dataObject
               dataObject = new int;               // 3. Allocate new dataObject
               *dataObject = *(objToCopy.dataObject); // 4. Copy dataObject
           }
+
+            cout << "MyClassIntPointer Assignment Operator called" << endl;
+            cout << "MyClassIntPointer new dataObject at " << dataObject << endl;
+            cout << "MyClassIntPointer objToCopy.dataObject at " << objToCopy.dataObject << endl;
    
           return *this;
      
      }
 
-  //private:
+     // Note:  In principle, we can make dataObject private, but in
+     // this example, we actually access it directly in the main program,
+     // so we need to leave it public.
+     // private:
+
      int* dataObject;
 };
 

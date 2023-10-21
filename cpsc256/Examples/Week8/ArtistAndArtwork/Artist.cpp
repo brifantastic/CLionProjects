@@ -29,6 +29,15 @@ string Artist::GetName() const {
    return artistName;
 }
 
+int Artist::GetBirthYear() const {
+   return birthYear;
+}
+
+int Artist::GetDeathYear() const {
+   return deathYear;
+}
+
+
 // TODO: Define PrintInfo() function
 //      If deathYear is entered as -1, only print birthYear
 void Artist::PrintInfo() const {
