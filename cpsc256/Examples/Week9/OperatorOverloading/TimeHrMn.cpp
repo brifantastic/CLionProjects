@@ -53,13 +53,14 @@ TimeHrMn TimeHrMn::operator+(TimeHrMn rhs) {
    while (timeTotal.seconds>=60.0) {
        
        timeTotal.minutes +=1;
+       timeTotal.seconds -=60.0;
        
        while (timeTotal.minutes>=60) {
             timeTotal.hours += 1;
             timeTotal.minutes -= 60;
        }
        
-       timeTotal.seconds -=60.0;
+
    }
    
    return timeTotal;

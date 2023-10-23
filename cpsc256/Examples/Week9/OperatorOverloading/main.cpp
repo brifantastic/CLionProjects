@@ -12,11 +12,37 @@ using namespace std;
 /*
  * Demonstration of some of the important aspects of operator overloading
  * 
- * Redefining/defining the meaning of +, -, and *
+ * Redefining/defining the meaning of +, -, *, /, <, >, <=, >=, ==, !=, etc.
+ *
+ * The following operators cannot be overloaded:
+ *  . (dot)
+ *  .* (pointer to member)
+ *  :: (scope resolution)
+ *  ?: (ternary)
+ *  sizeof (size of)
+ *  typeid (type identification)
+ *  const_cast (type cast)
+ *  dynamic_cast (type cast)
+ *  reinterpret_cast (type cast)
+ *  static_cast (type cast)
+ *  new (memory allocation)
+ *  delete (memory deallocation)
  *  
  */
 
 #include "TimeHrMn.h"
+
+/* In order to define all of the relational operators, one needs to
+ * define the following:
+ *  1. Equality (==)
+ *  2. Less-than (<)
+ *
+ *  Then, the following can be defined in terms of the above:
+ *  3. Not equal (!=)
+ *  4. Greater than (>)
+ *  5. Less than or equal (<=)
+ *  6. Greater than or equal (>=)
+ */
 
 // Equality (==) operator for two TimeHrMn objects
 bool operator==(const TimeHrMn& lhs, const TimeHrMn& rhs) {
@@ -25,7 +51,7 @@ bool operator==(const TimeHrMn& lhs, const TimeHrMn& rhs) {
           (lhs.GetSec() == rhs.GetSec());
 }
 
-// Less-than (<) operator for two Review objects
+// Less-than (<) operator for two TimeHrMn objects
 bool operator<(const TimeHrMn& lhs, const TimeHrMn& rhs) {
    if (lhs.GetHr() < rhs.GetHr()) {
        return true;
@@ -48,7 +74,6 @@ bool operator!=(const TimeHrMn& lhs, const TimeHrMn& rhs) { return !(lhs == rhs)
 bool operator>(const TimeHrMn& lhs, const TimeHrMn& rhs)  { return rhs < lhs;    }
 bool operator<=(const TimeHrMn& lhs, const TimeHrMn& rhs) { return !(lhs > rhs); }
 bool operator>=(const TimeHrMn& lhs, const TimeHrMn& rhs) { return !(lhs < rhs); }
-
 
 int main(int argc, char** argv) {
     

@@ -49,7 +49,6 @@ class MyClassIntPointer {
      
      void SetDataObject(const int i) { *dataObject = i; }
      int GetDataObject() const { return *dataObject; }
-     int* GetDataObjectPointer() const { return dataObject; }
      
      // Copy constructor
      MyClassIntPointer(const MyClassIntPointer& origObject) {
