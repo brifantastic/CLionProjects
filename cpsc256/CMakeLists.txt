@@ -40,26 +40,34 @@ add_executable(BasicVectorCPP Examples/Week6/BasicVectorCPP/main.cpp)
 add_executable(FunctionOverloading Examples/Week6/FunctionOverloading/main.cpp)
 
 # Week 7
-add_executable(PassBy Examples/Week6/PassBy/main.cpp)
+add_executable(PassBy Examples/Week7/PassBy/main.cpp)
 add_executable(BasicObjects Examples/Week7/BasicObjects/main.cpp Examples/Week7/BasicObjects/Restaurant.cpp)
 add_executable(MultipleClasses Examples/Week7/MultipleClasses/main.cpp)
 
 # Week 8
-add_executable(ArtistAndArtwork Examples/Week9/ArtistAndArtwork/main.cpp Examples/Week9/ArtistAndArtwork/Artist.cpp Examples/Week9/ArtistAndArtwork/Artwork.cpp)
-add_executable(CopyConstructorExample Examples/Week9/CopyConstructorExample/main.cpp)
 add_executable(PointersCPP Examples/Week8/PointersCPP/main.cpp)
 add_executable(BasicObjectsPointers Examples/Week8/BasicObjectsPointers/main.cpp Examples/Week8/BasicObjectsPointers/Restaurant.cpp)
 
 # Week 9
-add_executable(FunctionTemplates Examples/Week10/FunctionTemplates/main.cpp)
-add_executable(OperatorOverloading Examples/Week10/OperatorOverloading/main.cpp Examples/Week10/OperatorOverloading/TimeHrMn.cpp)
+add_executable(ArtistAndArtwork Examples/Week9/ArtistAndArtwork/main.cpp Examples/Week9/ArtistAndArtwork/Artist.cpp Examples/Week9/ArtistAndArtwork/Artwork.cpp)
+add_executable(CopyConstructorExample Examples/Week9/CopyConstructorExample/main.cpp)
 
 # Week 10
+add_executable(FunctionTemplates Examples/Week10/FunctionTemplates/main.cpp)
+add_executable(OperatorOverloading Examples/Week10/OperatorOverloading/main.cpp Examples/Week10/OperatorOverloading/TimeHrMn.cpp)
 add_executable(InheritancePolymorphism Examples/Week10/InheritancePolymorphism/main.cpp)
+
+# Week 11
 add_executable(BasicLinkedList Examples/Week11/BasicLinkedList/main.cpp Examples/Week11/BasicLinkedList/IntNode.cpp)
 add_executable(LinkListDestructor Examples/Week11/LinkListDestructor/main.cpp Examples/Week11/LinkListDestructor/IntNode.cpp Examples/Week11/LinkListDestructor/LinkedList.cpp)
-
 add_executable(BookLibrary Examples/Week11/BookLibrary/main.cpp Examples/Week11/BookLibrary/BookLibary.cpp)
 
+# Week 12
+add_executable(BinarySearchTree Examples/Week12/BinarySearchTree/main.cpp)
+add_executable(BinarySearchTree2 Examples/Week12/BinarySearchTree2/main.cpp Examples/Week12/BinarySearchTree2/BinarySearchTree.cpp)
+
+# Week 13
+add_executable(StackHeap Examples/Week13/StackHeap/main.cpp)
+
 # Projects
-add_executable(Project1Part1 Examples/Project1Part1/main.cpp Examples/Project1Part1/ItemToPurchase.cpp)
+add_executable(Project1Part1 Examples/Projects/Project1Part1/main.cpp Examples/Projects/Project1Part1/ItemToPurchase.cpp)
