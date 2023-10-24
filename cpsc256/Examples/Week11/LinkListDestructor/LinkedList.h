@@ -21,16 +21,16 @@ using namespace std;
 class LinkedList {
 public:
     
-   LinkedList();
-   ~LinkedList();  //destructor frees up entire linked list
+   LinkedList(); // default constructor
+   ~LinkedList();  // destructor frees up entire linked list
    
-   void Prepend(int dataValue);
+   void Prepend(int dataValue); // add a new node to the front of the list
    
-   IntNode* GetHead() const;
-   void SetHead(IntNode* headPtr); 
+   IntNode* GetHead() const; // return the head pointer
+   void SetHead(IntNode* headPtr); // set the head pointer
    
 private:
-   IntNode* head;
+   IntNode* head; // pointer to the first node in the list
    
 };
 

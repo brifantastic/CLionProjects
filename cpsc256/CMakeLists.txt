@@ -45,17 +45,17 @@ add_executable(BasicObjects Examples/Week7/BasicObjects/main.cpp Examples/Week7/
 add_executable(MultipleClasses Examples/Week7/MultipleClasses/main.cpp)
 
 # Week 8
-add_executable(ArtistAndArtwork Examples/Week8/ArtistAndArtwork/main.cpp Examples/Week8/ArtistAndArtwork/Artist.cpp Examples/Week8/ArtistAndArtwork/Artwork.cpp)
-add_executable(CopyConstructorExample Examples/Week8/CopyConstructorExample/main.cpp)
+add_executable(ArtistAndArtwork Examples/Week9/ArtistAndArtwork/main.cpp Examples/Week9/ArtistAndArtwork/Artist.cpp Examples/Week9/ArtistAndArtwork/Artwork.cpp)
+add_executable(CopyConstructorExample Examples/Week9/CopyConstructorExample/main.cpp)
 add_executable(PointersCPP Examples/Week8/PointersCPP/main.cpp)
 add_executable(BasicObjectsPointers Examples/Week8/BasicObjectsPointers/main.cpp Examples/Week8/BasicObjectsPointers/Restaurant.cpp)
 
 # Week 9
-add_executable(FunctionTemplates Examples/Week9/FunctionTemplates/main.cpp)
-add_executable(OperatorOverloading Examples/Week9/OperatorOverloading/main.cpp Examples/Week9/OperatorOverloading/TimeHrMn.cpp)
+add_executable(FunctionTemplates Examples/Week10/FunctionTemplates/main.cpp)
+add_executable(OperatorOverloading Examples/Week10/OperatorOverloading/main.cpp Examples/Week10/OperatorOverloading/TimeHrMn.cpp)
 
 # Week 10
 add_executable(InheritancePolymorphism Examples/Week10/InheritancePolymorphism/main.cpp)
-add_executable(BasicLinkedList Examples/Week10/BasicLinkedList/main.cpp Examples/Week10/BasicLinkedList/IntNode.cpp)
-
+add_executable(BasicLinkedList Examples/Week11/BasicLinkedList/main.cpp Examples/Week11/BasicLinkedList/IntNode.cpp)
+add_executable(LinkListDestructor Examples/Week11/LinkListDestructor/main.cpp Examples/Week11/LinkListDestructor/IntNode.cpp Examples/Week11/LinkListDestructor/LinkedList.cpp)
 add_executable(Project1Part1 Examples/Project1Part1/main.cpp Examples/Project1Part1/ItemToPurchase.cpp)
