@@ -18,48 +18,50 @@
 using namespace std;
 
 class Business {
-   public:
-       
-       void SetName(string name) {this->name = name;}
-       string GetName() const {return name;}
-       
-       void SetAddress(string address) {this->address = address;}
-       string GetAddress() const {return address;}
-       
-       //string GetDescription() const { return name + " -- " + address;}
-       virtual string GetDescription() const { return name + " -- " + address;}
 
-   // Protected member variables!!! Derived classes have access, but nobody else!
-   protected:
-      string name;
-      string address;
+    // Protected member variables!!! Derived classes have access, but nobody else!
+    protected:
+        string name;
+        string address;
+
+    public:
+        void SetName(string name) {this->name = name;}
+        string GetName() const {return name;}
+       
+        void SetAddress(string address) {this->address = address;}
+        string GetAddress() const {return address;}
+       
+        //string GetDescription() const { return name + " -- " + address;}
+        virtual string GetDescription() const { return name + " -- " + address;}
+
 };
 
 // Define a new class that INHERITS from the Business class
 class Restaurant : public Business {
-   public:
+
+    private:
+        int rating;
+
+    public:
        
-       // Add additional methods for the private member variables of the
-       // derived class
-       void SetRating(int rating) {this->rating = rating;}
-       int GetRating() const {return rating;}
+        // Add additional methods for the private member variables of the
+        // derived class
+        void SetRating(int rating) {this->rating = rating;}
+        int GetRating() const {return rating;}
        
-      // Override the GetDescription method of the base class! 
+        // Override the GetDescription method of the base class!
        
-      //string GetDescription() const {
-      //   return name + " -- " + address + 
-      //      "\n  Rating: " + to_string(rating);
-      //}
+        //string GetDescription() const {
+        //   return name + " -- " + address +
+        //      "\n  Rating: " + to_string(rating);
+        //}
       
-      string GetDescription() const override {
-         return name + " -- " + address + 
-            "\n  Rating: " + to_string(rating);
-      }
+        string GetDescription() const override {
+             return name + " -- " + address +
+                "\n  Rating: " + to_string(rating);
+        }
 
-   private:
-      int rating;
 };
-
 
 #endif /* BUSINESS_H */
 
