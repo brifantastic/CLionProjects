@@ -14,6 +14,7 @@
 #define BUSINESS_H
 
 #include <string>
+#include <iostream>
 
 using namespace std;
 
@@ -31,8 +32,8 @@ class Business {
         void SetAddress(string address) {this->address = address;}
         string GetAddress() const {return address;}
        
-        //string GetDescription() const { return name + " -- " + address;}
-        virtual string GetDescription() const { return name + " -- " + address;}
+        string GetDescription() const { cout << "Business GetDescription: " << endl; return name + " -- " + address;}
+        //virtual string GetDescription() const { cout << "Business GetDescription: " << endl; return name + " -- " + address;}
 
 };
 
@@ -51,15 +52,17 @@ class Restaurant : public Business {
        
         // Override the GetDescription method of the base class!
        
-        //string GetDescription() const {
-        //   return name + " -- " + address +
-        //      "\n  Rating: " + to_string(rating);
-        //}
-      
-        string GetDescription() const override {
-             return name + " -- " + address +
-                "\n  Rating: " + to_string(rating);
+        string GetDescription() const {
+           cout << "Restaurant GetDescription: " << endl;
+           return name + " -- " + address +
+              "\n  Rating: " + to_string(rating);
         }
+      
+        //string GetDescription() const override {
+        //     cout << "Restaurant GetDescription: " << endl;
+        //     return name + " -- " + address +
+        //        "\n  Rating: " + to_string(rating);
+        //}
 
 };
 

@@ -11,27 +11,20 @@
  */
 
 #include "Business.h"
-
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
-/*
- * 
- */
-
 int main(int argc, char** argv) {
 
-    Business genericBusiness;
-    Restaurant favoritePlace;
+    Business genericBusiness; // create an instance of the Business class
+    Restaurant favoritePlace; // create an instance of the Restaurant class
 
     genericBusiness.SetName("Some business"); // calls the SetName method of the Business class
     genericBusiness.SetAddress("1 Main St"); // Calls the SetAddress method of the Business class
 
     favoritePlace.SetName("Friends Cafe"); // actually calls the SetName method of the Business class
     favoritePlace.SetAddress("500 W 2nd Ave"); // actually calls the SetAddress method of the Business class
-
     favoritePlace.SetRating(5); // calls the SetRating method of the Restaurant class
 
 
@@ -40,6 +33,7 @@ int main(int argc, char** argv) {
     //  1. Compile-Time polymorphism ... the compiler can figure out which function (of the same name)
     //  to call based on the ARGUMENTS to the function, or based on explicit reference to functions of the
     //  class of a particular type of object.
+
     cout << "Compile Time Polymorphism" << endl;
     cout << "-------------------------" << endl;
     cout << genericBusiness.GetDescription() << endl; // calls the GetDescription method of the Business class!
