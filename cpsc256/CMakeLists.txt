@@ -71,3 +71,4 @@ add_executable(StackHeap Examples/Week13/StackHeap/main.cpp)
 
 # Projects
 add_executable(Project1Part1 Examples/Projects/Project1Part1/main.cpp Examples/Projects/Project1Part1/ItemToPurchase.cpp)
+add_executable(ProjectPart2 Examples/Projects/ProjectPart2/main.cpp Examples/Projects/ProjectPart2/ItemToPurchase.cpp Examples/Projects/ProjectPart2/ShoppingCart.cpp)

@@ -1143,11 +1143,11 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrar
 
 build cmake_object_order_depends_target_BinarySearchTree: phony || CMakeFiles/BinarySearchTree.dir
 
-build CMakeFiles/BinarySearchTree.dir/Examples/BinarySearchTree/main.cpp.o: CXX_COMPILER__BinarySearchTree_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/BinarySearchTree/main.cpp || cmake_object_order_depends_target_BinarySearchTree
-  DEP_FILE = CMakeFiles/BinarySearchTree.dir/Examples/BinarySearchTree/main.cpp.o.d
+build CMakeFiles/BinarySearchTree.dir/Examples/Week12/BinarySearchTree/main.cpp.o: CXX_COMPILER__BinarySearchTree_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree/main.cpp || cmake_object_order_depends_target_BinarySearchTree
+  DEP_FILE = CMakeFiles/BinarySearchTree.dir/Examples/Week12/BinarySearchTree/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BinarySearchTree.dir
-  OBJECT_FILE_DIR = CMakeFiles/BinarySearchTree.dir/Examples/BinarySearchTree
+  OBJECT_FILE_DIR = CMakeFiles/BinarySearchTree.dir/Examples/Week12/BinarySearchTree
 
 
 # =============================================================================
@@ -1157,7 +1157,7 @@ build CMakeFiles/BinarySearchTree.dir/Examples/BinarySearchTree/main.cpp.o: CXX_
 #############################################
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree: CXX_EXECUTABLE_LINKER__BinarySearchTree_Debug CMakeFiles/BinarySearchTree.dir/Examples/BinarySearchTree/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree: CXX_EXECUTABLE_LINKER__BinarySearchTree_Debug CMakeFiles/BinarySearchTree.dir/Examples/Week12/BinarySearchTree/main.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
   OBJECT_DIR = CMakeFiles/BinarySearchTree.dir
   POST_BUILD = :
@@ -1174,17 +1174,17 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySear
 
 build cmake_object_order_depends_target_BinarySearchTree2: phony || CMakeFiles/BinarySearchTree2.dir
 
-build CMakeFiles/BinarySearchTree2.dir/Examples/BinarySearchTree2/main.cpp.o: CXX_COMPILER__BinarySearchTree2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/BinarySearchTree2/main.cpp || cmake_object_order_depends_target_BinarySearchTree2
-  DEP_FILE = CMakeFiles/BinarySearchTree2.dir/Examples/BinarySearchTree2/main.cpp.o.d
+build CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/main.cpp.o: CXX_COMPILER__BinarySearchTree2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree2/main.cpp || cmake_object_order_depends_target_BinarySearchTree2
+  DEP_FILE = CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BinarySearchTree2.dir
-  OBJECT_FILE_DIR = CMakeFiles/BinarySearchTree2.dir/Examples/BinarySearchTree2
+  OBJECT_FILE_DIR = CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2
 
-build CMakeFiles/BinarySearchTree2.dir/Examples/BinarySearchTree2/BinarySearchTree.cpp.o: CXX_COMPILER__BinarySearchTree2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/BinarySearchTree2/BinarySearchTree.cpp || cmake_object_order_depends_target_BinarySearchTree2
-  DEP_FILE = CMakeFiles/BinarySearchTree2.dir/Examples/BinarySearchTree2/BinarySearchTree.cpp.o.d
+build CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/BinarySearchTree.cpp.o: CXX_COMPILER__BinarySearchTree2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree2/BinarySearchTree.cpp || cmake_object_order_depends_target_BinarySearchTree2
+  DEP_FILE = CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/BinarySearchTree.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BinarySearchTree2.dir
-  OBJECT_FILE_DIR = CMakeFiles/BinarySearchTree2.dir/Examples/BinarySearchTree2
+  OBJECT_FILE_DIR = CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2
 
 
 # =============================================================================
@@ -1194,7 +1194,7 @@ build CMakeFiles/BinarySearchTree2.dir/Examples/BinarySearchTree2/BinarySearchTr
 #############################################
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree2
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree2: CXX_EXECUTABLE_LINKER__BinarySearchTree2_Debug CMakeFiles/BinarySearchTree2.dir/Examples/BinarySearchTree2/main.cpp.o CMakeFiles/BinarySearchTree2.dir/Examples/BinarySearchTree2/BinarySearchTree.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree2: CXX_EXECUTABLE_LINKER__BinarySearchTree2_Debug CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/main.cpp.o CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/BinarySearchTree.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
   OBJECT_DIR = CMakeFiles/BinarySearchTree2.dir
   POST_BUILD = :
@@ -1211,11 +1211,11 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySear
 
 build cmake_object_order_depends_target_StackHeap: phony || CMakeFiles/StackHeap.dir
 
-build CMakeFiles/StackHeap.dir/Examples/StackHeap/main.cpp.o: CXX_COMPILER__StackHeap_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/StackHeap/main.cpp || cmake_object_order_depends_target_StackHeap
-  DEP_FILE = CMakeFiles/StackHeap.dir/Examples/StackHeap/main.cpp.o.d
+build CMakeFiles/StackHeap.dir/Examples/Week13/StackHeap/main.cpp.o: CXX_COMPILER__StackHeap_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week13/StackHeap/main.cpp || cmake_object_order_depends_target_StackHeap
+  DEP_FILE = CMakeFiles/StackHeap.dir/Examples/Week13/StackHeap/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/StackHeap.dir
-  OBJECT_FILE_DIR = CMakeFiles/StackHeap.dir/Examples/StackHeap
+  OBJECT_FILE_DIR = CMakeFiles/StackHeap.dir/Examples/Week13/StackHeap
 
 
 # =============================================================================
@@ -1225,7 +1225,7 @@ build CMakeFiles/StackHeap.dir/Examples/StackHeap/main.cpp.o: CXX_COMPILER__Stac
 #############################################
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap: CXX_EXECUTABLE_LINKER__StackHeap_Debug CMakeFiles/StackHeap.dir/Examples/StackHeap/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap: CXX_EXECUTABLE_LINKER__StackHeap_Debug CMakeFiles/StackHeap.dir/Examples/Week13/StackHeap/main.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
   OBJECT_DIR = CMakeFiles/StackHeap.dir
   POST_BUILD = :
@@ -1242,17 +1242,17 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap:
 
 build cmake_object_order_depends_target_Project1Part1: phony || CMakeFiles/Project1Part1.dir
 
-build CMakeFiles/Project1Part1.dir/Examples/Project1Part1/main.cpp.o: CXX_COMPILER__Project1Part1_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Project1Part1/main.cpp || cmake_object_order_depends_target_Project1Part1
-  DEP_FILE = CMakeFiles/Project1Part1.dir/Examples/Project1Part1/main.cpp.o.d
+build CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/main.cpp.o: CXX_COMPILER__Project1Part1_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/main.cpp || cmake_object_order_depends_target_Project1Part1
+  DEP_FILE = CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Project1Part1.dir
-  OBJECT_FILE_DIR = CMakeFiles/Project1Part1.dir/Examples/Project1Part1
+  OBJECT_FILE_DIR = CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1
 
-build CMakeFiles/Project1Part1.dir/Examples/Project1Part1/ItemToPurchase.cpp.o: CXX_COMPILER__Project1Part1_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Project1Part1/ItemToPurchase.cpp || cmake_object_order_depends_target_Project1Part1
-  DEP_FILE = CMakeFiles/Project1Part1.dir/Examples/Project1Part1/ItemToPurchase.cpp.o.d
+build CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/ItemToPurchase.cpp.o: CXX_COMPILER__Project1Part1_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/ItemToPurchase.cpp || cmake_object_order_depends_target_Project1Part1
+  DEP_FILE = CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/ItemToPurchase.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Project1Part1.dir
-  OBJECT_FILE_DIR = CMakeFiles/Project1Part1.dir/Examples/Project1Part1
+  OBJECT_FILE_DIR = CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1
 
 
 # =============================================================================
@@ -1262,13 +1262,56 @@ build CMakeFiles/Project1Part1.dir/Examples/Project1Part1/ItemToPurchase.cpp.o: 
 #############################################
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1: CXX_EXECUTABLE_LINKER__Project1Part1_Debug CMakeFiles/Project1Part1.dir/Examples/Project1Part1/main.cpp.o CMakeFiles/Project1Part1.dir/Examples/Project1Part1/ItemToPurchase.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1: CXX_EXECUTABLE_LINKER__Project1Part1_Debug CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/main.cpp.o CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/ItemToPurchase.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
   OBJECT_DIR = CMakeFiles/Project1Part1.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1
   TARGET_PDB = Project1Part1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ProjectPart2
+
+
+#############################################
+# Order-only phony target for ProjectPart2
+
+build cmake_object_order_depends_target_ProjectPart2: phony || CMakeFiles/ProjectPart2.dir
+
+build CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/main.cpp.o: CXX_COMPILER__ProjectPart2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/main.cpp || cmake_object_order_depends_target_ProjectPart2
+  DEP_FILE = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ProjectPart2.dir
+  OBJECT_FILE_DIR = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2
+
+build CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ItemToPurchase.cpp.o: CXX_COMPILER__ProjectPart2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ItemToPurchase.cpp || cmake_object_order_depends_target_ProjectPart2
+  DEP_FILE = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ItemToPurchase.cpp.o.d
+  FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ProjectPart2.dir
+  OBJECT_FILE_DIR = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2
+
+build CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ShoppingCart.cpp.o: CXX_COMPILER__ProjectPart2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ShoppingCart.cpp || cmake_object_order_depends_target_ProjectPart2
+  DEP_FILE = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ShoppingCart.cpp.o.d
+  FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ProjectPart2.dir
+  OBJECT_FILE_DIR = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ProjectPart2
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPart2
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPart2: CXX_EXECUTABLE_LINKER__ProjectPart2_Debug CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/main.cpp.o CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ItemToPurchase.cpp.o CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ShoppingCart.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
+  OBJECT_DIR = CMakeFiles/ProjectPart2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPart2
+  TARGET_PDB = ProjectPart2.dbg
 
 
 #############################################
@@ -1354,6 +1397,8 @@ build PointersCPP: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/Basic
 
 build Project1Part1: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1
 
+build ProjectPart2: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPart2
+
 build QuickSort: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort
 
 build Restaurant_C_Example: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example
@@ -1372,7 +1417,7 @@ build VoidPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/Basi
 #############################################
 # Folder: /Users/brash/CLionProjects/cpsc256/cmake-build-debug
 
-build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjectsPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/InheritancePolymorphism /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree2 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1
+build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjectsPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/InheritancePolymorphism /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree2 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPart2
 
 # =============================================================================
 # Built-in targets
