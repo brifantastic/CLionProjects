@@ -62,8 +62,9 @@ void IntNode::PrintNodeData() {
     cout << "---------------------" << endl;
     cout << "|  " << setw(14) << this->nextNodePtr << "   |" << endl;
     cout << "---------------------" << endl;
-    cout << "          |          " << endl;
-    cout << "         \\_/         " << endl;
+    cout << "         ||         " << endl;
+    cout << "        \\  /         " << endl;
+    cout << "         \\/          " << endl;
     
 }
 

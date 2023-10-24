@@ -56,5 +56,6 @@ add_executable(OperatorOverloading Examples/Week9/OperatorOverloading/main.cpp E
 
 # Week 10
 add_executable(InheritancePolymorphism Examples/Week10/InheritancePolymorphism/main.cpp)
+add_executable(BasicLinkedList Examples/Week10/BasicLinkedList/main.cpp Examples/Week10/BasicLinkedList/IntNode.cpp)
 
 add_executable(Project1Part1 Examples/Project1Part1/main.cpp Examples/Project1Part1/ItemToPurchase.cpp)
