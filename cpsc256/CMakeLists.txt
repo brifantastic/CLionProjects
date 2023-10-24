@@ -58,4 +58,8 @@ add_executable(OperatorOverloading Examples/Week10/OperatorOverloading/main.cpp 
 add_executable(InheritancePolymorphism Examples/Week10/InheritancePolymorphism/main.cpp)
 add_executable(BasicLinkedList Examples/Week11/BasicLinkedList/main.cpp Examples/Week11/BasicLinkedList/IntNode.cpp)
 add_executable(LinkListDestructor Examples/Week11/LinkListDestructor/main.cpp Examples/Week11/LinkListDestructor/IntNode.cpp Examples/Week11/LinkListDestructor/LinkedList.cpp)
+
+add_executable(BookLibrary Examples/BookLibrary/main.cpp Examples/BookLibrary/BookLibary.cpp)
+
+# Projects
 add_executable(Project1Part1 Examples/Project1Part1/main.cpp Examples/Project1Part1/ItemToPurchase.cpp)

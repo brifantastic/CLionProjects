@@ -785,23 +785,23 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleCl
 
 build cmake_object_order_depends_target_ArtistAndArtwork: phony || CMakeFiles/ArtistAndArtwork.dir
 
-build CMakeFiles/ArtistAndArtwork.dir/Examples/Week8/ArtistAndArtwork/main.cpp.o: CXX_COMPILER__ArtistAndArtwork_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week8/ArtistAndArtwork/main.cpp || cmake_object_order_depends_target_ArtistAndArtwork
-  DEP_FILE = CMakeFiles/ArtistAndArtwork.dir/Examples/Week8/ArtistAndArtwork/main.cpp.o.d
+build CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/main.cpp.o: CXX_COMPILER__ArtistAndArtwork_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/main.cpp || cmake_object_order_depends_target_ArtistAndArtwork
+  DEP_FILE = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
-  OBJECT_FILE_DIR = CMakeFiles/ArtistAndArtwork.dir/Examples/Week8/ArtistAndArtwork
+  OBJECT_FILE_DIR = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork
 
-build CMakeFiles/ArtistAndArtwork.dir/Examples/Week8/ArtistAndArtwork/Artist.cpp.o: CXX_COMPILER__ArtistAndArtwork_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week8/ArtistAndArtwork/Artist.cpp || cmake_object_order_depends_target_ArtistAndArtwork
-  DEP_FILE = CMakeFiles/ArtistAndArtwork.dir/Examples/Week8/ArtistAndArtwork/Artist.cpp.o.d
+build CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artist.cpp.o: CXX_COMPILER__ArtistAndArtwork_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/Artist.cpp || cmake_object_order_depends_target_ArtistAndArtwork
+  DEP_FILE = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artist.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
-  OBJECT_FILE_DIR = CMakeFiles/ArtistAndArtwork.dir/Examples/Week8/ArtistAndArtwork
+  OBJECT_FILE_DIR = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork
 
-build CMakeFiles/ArtistAndArtwork.dir/Examples/Week8/ArtistAndArtwork/Artwork.cpp.o: CXX_COMPILER__ArtistAndArtwork_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week8/ArtistAndArtwork/Artwork.cpp || cmake_object_order_depends_target_ArtistAndArtwork
-  DEP_FILE = CMakeFiles/ArtistAndArtwork.dir/Examples/Week8/ArtistAndArtwork/Artwork.cpp.o.d
+build CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artwork.cpp.o: CXX_COMPILER__ArtistAndArtwork_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/Artwork.cpp || cmake_object_order_depends_target_ArtistAndArtwork
+  DEP_FILE = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artwork.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
-  OBJECT_FILE_DIR = CMakeFiles/ArtistAndArtwork.dir/Examples/Week8/ArtistAndArtwork
+  OBJECT_FILE_DIR = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork
 
 
 # =============================================================================
@@ -811,7 +811,7 @@ build CMakeFiles/ArtistAndArtwork.dir/Examples/Week8/ArtistAndArtwork/Artwork.cp
 #############################################
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork: CXX_EXECUTABLE_LINKER__ArtistAndArtwork_Debug CMakeFiles/ArtistAndArtwork.dir/Examples/Week8/ArtistAndArtwork/main.cpp.o CMakeFiles/ArtistAndArtwork.dir/Examples/Week8/ArtistAndArtwork/Artist.cpp.o CMakeFiles/ArtistAndArtwork.dir/Examples/Week8/ArtistAndArtwork/Artwork.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork: CXX_EXECUTABLE_LINKER__ArtistAndArtwork_Debug CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/main.cpp.o CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artist.cpp.o CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artwork.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
   OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
   POST_BUILD = :
@@ -828,11 +828,11 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndA
 
 build cmake_object_order_depends_target_CopyConstructorExample: phony || CMakeFiles/CopyConstructorExample.dir
 
-build CMakeFiles/CopyConstructorExample.dir/Examples/Week8/CopyConstructorExample/main.cpp.o: CXX_COMPILER__CopyConstructorExample_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week8/CopyConstructorExample/main.cpp || cmake_object_order_depends_target_CopyConstructorExample
-  DEP_FILE = CMakeFiles/CopyConstructorExample.dir/Examples/Week8/CopyConstructorExample/main.cpp.o.d
+build CMakeFiles/CopyConstructorExample.dir/Examples/Week9/CopyConstructorExample/main.cpp.o: CXX_COMPILER__CopyConstructorExample_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week9/CopyConstructorExample/main.cpp || cmake_object_order_depends_target_CopyConstructorExample
+  DEP_FILE = CMakeFiles/CopyConstructorExample.dir/Examples/Week9/CopyConstructorExample/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/CopyConstructorExample.dir
-  OBJECT_FILE_DIR = CMakeFiles/CopyConstructorExample.dir/Examples/Week8/CopyConstructorExample
+  OBJECT_FILE_DIR = CMakeFiles/CopyConstructorExample.dir/Examples/Week9/CopyConstructorExample
 
 
 # =============================================================================
@@ -842,7 +842,7 @@ build CMakeFiles/CopyConstructorExample.dir/Examples/Week8/CopyConstructorExampl
 #############################################
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample: CXX_EXECUTABLE_LINKER__CopyConstructorExample_Debug CMakeFiles/CopyConstructorExample.dir/Examples/Week8/CopyConstructorExample/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample: CXX_EXECUTABLE_LINKER__CopyConstructorExample_Debug CMakeFiles/CopyConstructorExample.dir/Examples/Week9/CopyConstructorExample/main.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
   OBJECT_DIR = CMakeFiles/CopyConstructorExample.dir
   POST_BUILD = :
@@ -927,11 +927,11 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjec
 
 build cmake_object_order_depends_target_FunctionTemplates: phony || CMakeFiles/FunctionTemplates.dir
 
-build CMakeFiles/FunctionTemplates.dir/Examples/Week9/FunctionTemplates/main.cpp.o: CXX_COMPILER__FunctionTemplates_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week9/FunctionTemplates/main.cpp || cmake_object_order_depends_target_FunctionTemplates
-  DEP_FILE = CMakeFiles/FunctionTemplates.dir/Examples/Week9/FunctionTemplates/main.cpp.o.d
+build CMakeFiles/FunctionTemplates.dir/Examples/Week10/FunctionTemplates/main.cpp.o: CXX_COMPILER__FunctionTemplates_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week10/FunctionTemplates/main.cpp || cmake_object_order_depends_target_FunctionTemplates
+  DEP_FILE = CMakeFiles/FunctionTemplates.dir/Examples/Week10/FunctionTemplates/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FunctionTemplates.dir
-  OBJECT_FILE_DIR = CMakeFiles/FunctionTemplates.dir/Examples/Week9/FunctionTemplates
+  OBJECT_FILE_DIR = CMakeFiles/FunctionTemplates.dir/Examples/Week10/FunctionTemplates
 
 
 # =============================================================================
@@ -941,7 +941,7 @@ build CMakeFiles/FunctionTemplates.dir/Examples/Week9/FunctionTemplates/main.cpp
 #############################################
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates: CXX_EXECUTABLE_LINKER__FunctionTemplates_Debug CMakeFiles/FunctionTemplates.dir/Examples/Week9/FunctionTemplates/main.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates: CXX_EXECUTABLE_LINKER__FunctionTemplates_Debug CMakeFiles/FunctionTemplates.dir/Examples/Week10/FunctionTemplates/main.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
   OBJECT_DIR = CMakeFiles/FunctionTemplates.dir
   POST_BUILD = :
@@ -958,17 +958,17 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTe
 
 build cmake_object_order_depends_target_OperatorOverloading: phony || CMakeFiles/OperatorOverloading.dir
 
-build CMakeFiles/OperatorOverloading.dir/Examples/Week9/OperatorOverloading/main.cpp.o: CXX_COMPILER__OperatorOverloading_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week9/OperatorOverloading/main.cpp || cmake_object_order_depends_target_OperatorOverloading
-  DEP_FILE = CMakeFiles/OperatorOverloading.dir/Examples/Week9/OperatorOverloading/main.cpp.o.d
+build CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/main.cpp.o: CXX_COMPILER__OperatorOverloading_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week10/OperatorOverloading/main.cpp || cmake_object_order_depends_target_OperatorOverloading
+  DEP_FILE = CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/OperatorOverloading.dir
-  OBJECT_FILE_DIR = CMakeFiles/OperatorOverloading.dir/Examples/Week9/OperatorOverloading
+  OBJECT_FILE_DIR = CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading
 
-build CMakeFiles/OperatorOverloading.dir/Examples/Week9/OperatorOverloading/TimeHrMn.cpp.o: CXX_COMPILER__OperatorOverloading_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week9/OperatorOverloading/TimeHrMn.cpp || cmake_object_order_depends_target_OperatorOverloading
-  DEP_FILE = CMakeFiles/OperatorOverloading.dir/Examples/Week9/OperatorOverloading/TimeHrMn.cpp.o.d
+build CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/TimeHrMn.cpp.o: CXX_COMPILER__OperatorOverloading_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week10/OperatorOverloading/TimeHrMn.cpp || cmake_object_order_depends_target_OperatorOverloading
+  DEP_FILE = CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/TimeHrMn.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/OperatorOverloading.dir
-  OBJECT_FILE_DIR = CMakeFiles/OperatorOverloading.dir/Examples/Week9/OperatorOverloading
+  OBJECT_FILE_DIR = CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading
 
 
 # =============================================================================
@@ -978,7 +978,7 @@ build CMakeFiles/OperatorOverloading.dir/Examples/Week9/OperatorOverloading/Time
 #############################################
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading: CXX_EXECUTABLE_LINKER__OperatorOverloading_Debug CMakeFiles/OperatorOverloading.dir/Examples/Week9/OperatorOverloading/main.cpp.o CMakeFiles/OperatorOverloading.dir/Examples/Week9/OperatorOverloading/TimeHrMn.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading: CXX_EXECUTABLE_LINKER__OperatorOverloading_Debug CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/main.cpp.o CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/TimeHrMn.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
   OBJECT_DIR = CMakeFiles/OperatorOverloading.dir
   POST_BUILD = :
@@ -1026,17 +1026,17 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Inheritanc
 
 build cmake_object_order_depends_target_BasicLinkedList: phony || CMakeFiles/BasicLinkedList.dir
 
-build CMakeFiles/BasicLinkedList.dir/Examples/Week10/BasicLinkedList/main.cpp.o: CXX_COMPILER__BasicLinkedList_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week10/BasicLinkedList/main.cpp || cmake_object_order_depends_target_BasicLinkedList
-  DEP_FILE = CMakeFiles/BasicLinkedList.dir/Examples/Week10/BasicLinkedList/main.cpp.o.d
+build CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/main.cpp.o: CXX_COMPILER__BasicLinkedList_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/main.cpp || cmake_object_order_depends_target_BasicLinkedList
+  DEP_FILE = CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BasicLinkedList.dir
-  OBJECT_FILE_DIR = CMakeFiles/BasicLinkedList.dir/Examples/Week10/BasicLinkedList
+  OBJECT_FILE_DIR = CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList
 
-build CMakeFiles/BasicLinkedList.dir/Examples/Week10/BasicLinkedList/IntNode.cpp.o: CXX_COMPILER__BasicLinkedList_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week10/BasicLinkedList/IntNode.cpp || cmake_object_order_depends_target_BasicLinkedList
-  DEP_FILE = CMakeFiles/BasicLinkedList.dir/Examples/Week10/BasicLinkedList/IntNode.cpp.o.d
+build CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/IntNode.cpp.o: CXX_COMPILER__BasicLinkedList_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/IntNode.cpp || cmake_object_order_depends_target_BasicLinkedList
+  DEP_FILE = CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/IntNode.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BasicLinkedList.dir
-  OBJECT_FILE_DIR = CMakeFiles/BasicLinkedList.dir/Examples/Week10/BasicLinkedList
+  OBJECT_FILE_DIR = CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList
 
 
 # =============================================================================
@@ -1046,7 +1046,7 @@ build CMakeFiles/BasicLinkedList.dir/Examples/Week10/BasicLinkedList/IntNode.cpp
 #############################################
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList: CXX_EXECUTABLE_LINKER__BasicLinkedList_Debug CMakeFiles/BasicLinkedList.dir/Examples/Week10/BasicLinkedList/main.cpp.o CMakeFiles/BasicLinkedList.dir/Examples/Week10/BasicLinkedList/IntNode.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList: CXX_EXECUTABLE_LINKER__BasicLinkedList_Debug CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/main.cpp.o CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/IntNode.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
   OBJECT_DIR = CMakeFiles/BasicLinkedList.dir
   POST_BUILD = :
@@ -1063,23 +1063,23 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinke
 
 build cmake_object_order_depends_target_LinkListDestructor: phony || CMakeFiles/LinkListDestructor.dir
 
-build CMakeFiles/LinkListDestructor.dir/Examples/Week10/LinkListDestructor/main.cpp.o: CXX_COMPILER__LinkListDestructor_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week10/LinkListDestructor/main.cpp || cmake_object_order_depends_target_LinkListDestructor
-  DEP_FILE = CMakeFiles/LinkListDestructor.dir/Examples/Week10/LinkListDestructor/main.cpp.o.d
+build CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/main.cpp.o: CXX_COMPILER__LinkListDestructor_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/main.cpp || cmake_object_order_depends_target_LinkListDestructor
+  DEP_FILE = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/LinkListDestructor.dir
-  OBJECT_FILE_DIR = CMakeFiles/LinkListDestructor.dir/Examples/Week10/LinkListDestructor
+  OBJECT_FILE_DIR = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor
 
-build CMakeFiles/LinkListDestructor.dir/Examples/Week10/LinkListDestructor/IntNode.cpp.o: CXX_COMPILER__LinkListDestructor_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week10/LinkListDestructor/IntNode.cpp || cmake_object_order_depends_target_LinkListDestructor
-  DEP_FILE = CMakeFiles/LinkListDestructor.dir/Examples/Week10/LinkListDestructor/IntNode.cpp.o.d
+build CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/IntNode.cpp.o: CXX_COMPILER__LinkListDestructor_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/IntNode.cpp || cmake_object_order_depends_target_LinkListDestructor
+  DEP_FILE = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/IntNode.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/LinkListDestructor.dir
-  OBJECT_FILE_DIR = CMakeFiles/LinkListDestructor.dir/Examples/Week10/LinkListDestructor
+  OBJECT_FILE_DIR = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor
 
-build CMakeFiles/LinkListDestructor.dir/Examples/Week10/LinkListDestructor/LinkedList.cpp.o: CXX_COMPILER__LinkListDestructor_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week10/LinkListDestructor/LinkedList.cpp || cmake_object_order_depends_target_LinkListDestructor
-  DEP_FILE = CMakeFiles/LinkListDestructor.dir/Examples/Week10/LinkListDestructor/LinkedList.cpp.o.d
+build CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/LinkedList.cpp.o: CXX_COMPILER__LinkListDestructor_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/LinkedList.cpp || cmake_object_order_depends_target_LinkListDestructor
+  DEP_FILE = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/LinkedList.cpp.o.d
   FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/LinkListDestructor.dir
-  OBJECT_FILE_DIR = CMakeFiles/LinkListDestructor.dir/Examples/Week10/LinkListDestructor
+  OBJECT_FILE_DIR = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor
 
 
 # =============================================================================
@@ -1089,13 +1089,50 @@ build CMakeFiles/LinkListDestructor.dir/Examples/Week10/LinkListDestructor/Linke
 #############################################
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor
 
-build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor: CXX_EXECUTABLE_LINKER__LinkListDestructor_Debug CMakeFiles/LinkListDestructor.dir/Examples/Week10/LinkListDestructor/main.cpp.o CMakeFiles/LinkListDestructor.dir/Examples/Week10/LinkListDestructor/IntNode.cpp.o CMakeFiles/LinkListDestructor.dir/Examples/Week10/LinkListDestructor/LinkedList.cpp.o
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor: CXX_EXECUTABLE_LINKER__LinkListDestructor_Debug CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/main.cpp.o CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/IntNode.cpp.o CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/LinkedList.cpp.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
   OBJECT_DIR = CMakeFiles/LinkListDestructor.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor
   TARGET_PDB = LinkListDestructor.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BookLibrary
+
+
+#############################################
+# Order-only phony target for BookLibrary
+
+build cmake_object_order_depends_target_BookLibrary: phony || CMakeFiles/BookLibrary.dir
+
+build CMakeFiles/BookLibrary.dir/Examples/BookLibrary/main.cpp.o: CXX_COMPILER__BookLibrary_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/BookLibrary/main.cpp || cmake_object_order_depends_target_BookLibrary
+  DEP_FILE = CMakeFiles/BookLibrary.dir/Examples/BookLibrary/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/BookLibrary.dir
+  OBJECT_FILE_DIR = CMakeFiles/BookLibrary.dir/Examples/BookLibrary
+
+build CMakeFiles/BookLibrary.dir/Examples/BookLibrary/BookLibary.cpp.o: CXX_COMPILER__BookLibrary_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/BookLibrary/BookLibary.cpp || cmake_object_order_depends_target_BookLibrary
+  DEP_FILE = CMakeFiles/BookLibrary.dir/Examples/BookLibrary/BookLibary.cpp.o.d
+  FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/BookLibrary.dir
+  OBJECT_FILE_DIR = CMakeFiles/BookLibrary.dir/Examples/BookLibrary
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BookLibrary
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary: CXX_EXECUTABLE_LINKER__BookLibrary_Debug CMakeFiles/BookLibrary.dir/Examples/BookLibrary/main.cpp.o CMakeFiles/BookLibrary.dir/Examples/BookLibrary/BookLibary.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
+  OBJECT_DIR = CMakeFiles/BookLibrary.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary
+  TARGET_PDB = BookLibrary.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Project1Part1
@@ -1172,6 +1209,8 @@ build BasicPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/Bas
 
 build BasicVectorCPP: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP
 
+build BookLibrary: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary
+
 build CSVFileReader: phony /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader
 
 build CoinFlip: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip
@@ -1228,7 +1267,7 @@ build VoidPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/Basi
 #############################################
 # Folder: /Users/brash/CLionProjects/cpsc256/cmake-build-debug
 
-build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjectsPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/InheritancePolymorphism /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1
+build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjectsPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/InheritancePolymorphism /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1
 
 # =============================================================================
 # Built-in targets

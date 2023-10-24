@@ -18,16 +18,6 @@ Book::Book(string userBookTitle, string userBookAuthor, long userBookISBN) {
    bookISBN = userBookISBN;
 }
 
-long Book::GetBookISBN() const{
-   return bookISBN;
-}
-string Book::GetBookTitle() const{
-   return bookTitle;
-}
-string Book::GetBookAuthor() const{
-   return bookAuthor;
-}
-
 void Book::PrintInfo() const{
    cout << "Title: " << bookTitle << endl;
    cout << "Author: " << bookAuthor << endl;

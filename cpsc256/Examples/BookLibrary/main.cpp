@@ -16,7 +16,6 @@
 #include <iostream>
 #include <string>
 #include <cstdlib>
-#include <ctime>
 #include <chrono>
 
 using namespace std;
@@ -50,7 +49,7 @@ Book genBook(long isbn) {
     string temp = "The ";
     
     ifstream inputFS;
-    inputFS.open("/Users/brash/NetBeansProjects/ArtistAndArtwork/adjectives.txt");
+    inputFS.open("/Users/brash/CLionProjects/cpsc256/Examples/BookLibrary/adjectives.txt");
     vector<string> adjective;
     
     for(string tempAdj; getline(inputFS,tempAdj);) {
@@ -58,7 +57,7 @@ Book genBook(long isbn) {
     }
     inputFS.close();
     
-    inputFS.open("/Users/brash/NetBeansProjects/ArtistAndArtwork/nouns.txt");
+    inputFS.open("/Users/brash/CLionProjects/cpsc256/Examples/BookLibrary/nouns.txt");
     vector<string> noun;
     
     for(string tempNoun; getline(inputFS,tempNoun);) {
@@ -67,7 +66,7 @@ Book genBook(long isbn) {
     inputFS.close();
     
     
-    inputFS.open("/Users/brash/NetBeansProjects/ArtistAndArtwork/towns.txt");
+    inputFS.open("/Users/brash/CLionProjects/cpsc256/Examples/BookLibrary/towns.txt");
     vector<string> town;
     
     for(string tempTown; getline(inputFS,tempTown);) {
@@ -76,7 +75,7 @@ Book genBook(long isbn) {
     }
     inputFS.close();
     
-    inputFS.open("/Users/brash/NetBeansProjects/ArtistAndArtwork/lastnames.txt");
+    inputFS.open("/Users/brash/CLionProjects/cpsc256/Examples/BookLibrary/lastnames.txt");
     vector<string> lastname;
     
     for(string tempLast; getline(inputFS,tempLast);) {
@@ -84,7 +83,7 @@ Book genBook(long isbn) {
     }
     inputFS.close();
     
-    inputFS.open("/Users/brash/NetBeansProjects/ArtistAndArtwork/firstnames.txt");
+    inputFS.open("/Users/brash/CLionProjects/cpsc256/Examples/BookLibrary/firstnames.txt");
     vector<string> firstname;
     
     for(string tempFirst; getline(inputFS,tempFirst);) {

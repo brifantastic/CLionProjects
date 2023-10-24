@@ -19,21 +19,22 @@
 using namespace std;
 
 class Book{
+
+   private:
+      string bookTitle;
+      string bookAuthor;
+      long bookISBN;
+
    public:
       Book();
 
       Book(string userBookTitle, string userBookAuthor, long userBookISBN);
 
-      long GetBookISBN() const;
-      string GetBookTitle() const;
-      string GetBookAuthor() const;
+      long GetBookISBN() const { return bookISBN; };
+      string GetBookTitle() const { return bookTitle; };
+      string GetBookAuthor() const { return bookAuthor; };
 
       void PrintInfo() const;
-   
-   private:
-      string bookTitle;
-      string bookAuthor;
-      long bookISBN;
 };
 
 class BookNode {
@@ -46,7 +47,7 @@ class BookNode {
       // Constructor
       BookNode(string bookTitleInit, string bookAuthorInit, long bookISBNInit, BookNode* nextLoc);
 
-      // inserAfter
+      // insertAfter
       void insertAfter(BookNode* nodeLoc);
       
       //setNext
