@@ -6,24 +6,36 @@
 #include "BookLibary.h"
 #include <iostream>
 
+// Default Constructor for Book
 Book::Book() {
    bookTitle = "";
    bookAuthor = "";
    bookISBN = 0;
 }
 
+// Initialization Constructor without nextLoc pointer
 Book::Book(string userBookTitle, string userBookAuthor, long userBookISBN) {
    bookTitle = userBookTitle;
    bookAuthor = userBookAuthor;
    bookISBN = userBookISBN;
 }
 
+// Initialization Constructor with nextLoc pointer
+BookNode::BookNode(string bookTitleInit, string bookAuthorInit, long bookISBNInit) {
+    bookTitle = bookTitleInit;
+    bookAuthor = bookAuthorInit;
+    bookISBN = bookISBNInit;
+    nextNodePtr = nullptr;
+}
+
+// Print book information
 void Book::PrintInfo() const{
    cout << "Title: " << bookTitle << endl;
    cout << "Author: " << bookAuthor << endl;
    cout << "ISBN: " << bookISBN << endl;
 }
 
+// Default Constructor for BookNode
 BookNode::BookNode() {
    bookTitle = "";
    bookAuthor = "";
@@ -31,15 +43,7 @@ BookNode::BookNode() {
    nextNodePtr = nullptr;
 }
 
-// Constructor
-BookNode::BookNode(string bookTitleInit, string bookAuthorInit, long bookISBNInit) {
-   bookTitle = bookTitleInit;
-   bookAuthor = bookAuthorInit;
-   bookISBN = bookISBNInit;
-   nextNodePtr = nullptr;
-}
-
-// Constructor
+// Initialization Constructor for BookNode
 BookNode::BookNode(string bookTitleInit, string bookAuthorInit, long bookISBNInit, BookNode* nextLoc) {
    bookTitle = bookTitleInit;
    bookAuthor = bookAuthorInit;
@@ -65,23 +69,26 @@ BookNode* BookNode::GetNext() const{
    return nextNodePtr;
 }
 
+// Get book ISBN
 long BookNode::GetBookISBN() const{
    return bookISBN;
 }
 
-// Print book information
+// Print book information of a BookNode
 void BookNode::PrintBookInfo() const{
    cout << "Title: " << bookTitle << endl;
    cout << "Author: " << bookAuthor << endl;
    cout << "ISBN: " << bookISBN << endl;
 }
 
+// Default Constructor for LinkedListLibrary
 LinkedListLibrary::LinkedListLibrary() {
    // Front of nodes list
    headNode = nullptr;
    lastNode = nullptr;
 }
 
+// Destructor for LinkedListLibrary
 LinkedListLibrary::~LinkedListLibrary() {
    while(headNode != nullptr) {
       BookNode* tempNode = headNode->GetNext();
@@ -90,6 +97,7 @@ LinkedListLibrary::~LinkedListLibrary() {
    }
 }
 
+// Insert node in sorted order into linked list library
 int LinkedListLibrary::InsertSorted(BookNode* newNode, int counter) {
    BookNode* currNode, nextNode;
 
@@ -112,6 +120,7 @@ int LinkedListLibrary::InsertSorted(BookNode* newNode, int counter) {
    return counter;
 }
 
+// Print library
 void LinkedListLibrary::PrintLibrary() const {
    BookNode* currNode;
    
@@ -126,6 +135,8 @@ void LinkedListLibrary::PrintLibrary() const {
    }
 }
 
+
+// Default Constructor for VectorLibrary
 VectorLibrary::VectorLibrary() {
       vector<Book> library;
 }
@@ -181,6 +192,8 @@ int VectorLibrary::InsertSorted(const Book &newBook, int counter) {
     return counter;
 }
 
+
+// Print library (vector library)
 void VectorLibrary::PrintLibrary() const {
    for (size_t i = 0; i < library.size(); ++i) {
       library.at(i).PrintInfo();

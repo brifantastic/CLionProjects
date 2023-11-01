@@ -39,15 +39,16 @@ class Book{
 
 class BookNode {
    public:
+      // Default Constructor
       BookNode();
 
-      // Constructor
+      // Initialization Constructor with no nextLoc pointer
       BookNode(string bookTitleInit, string bookAuthorInit, long bookISBNInit);
 
-      // Constructor
+      // Initialization Constructor with nextLoc pointer
       BookNode(string bookTitleInit, string bookAuthorInit, long bookISBNInit, BookNode* nextLoc);
 
-      // insertAfter
+      // insertAfter method
       void insertAfter(BookNode* nodeLoc);
       
       //setNext
