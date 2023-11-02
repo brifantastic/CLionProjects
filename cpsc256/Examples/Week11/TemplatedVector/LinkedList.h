@@ -103,6 +103,7 @@ public:
    IntNode<TheType>* GetHead() const {
          return this->head;
    }; // return the head pointer
+
    void SetHead(IntNode<TheType>* headPtr) {
             this->head = headPtr;
    }; // set the head pointer
