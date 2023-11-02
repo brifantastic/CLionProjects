@@ -61,6 +61,7 @@ add_executable(InheritancePolymorphism Examples/Week10/InheritancePolymorphism/m
 add_executable(BasicLinkedList Examples/Week11/BasicLinkedList/main.cpp Examples/Week11/BasicLinkedList/IntNode.cpp)
 add_executable(LinkListDestructor Examples/Week11/LinkListDestructor/main.cpp Examples/Week11/LinkListDestructor/IntNode.cpp Examples/Week11/LinkListDestructor/LinkedList.cpp)
 add_executable(BookLibrary Examples/Week11/BookLibrary/main.cpp Examples/Week11/BookLibrary/BookLibary.cpp)
+add_executable(VectorOfInts Examples/Week11/VectorOfInts/main.cpp Examples/Week11/VectorOfInts/LinkedList.cpp Examples/Week11/VectorOfInts/IntNode.cpp)
 
 # Week 12
 add_executable(BinarySearchTree Examples/Week12/BinarySearchTree/main.cpp)

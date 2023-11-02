@@ -17,8 +17,9 @@
  * 
  */
 int main(int argc, char** argv) {
-   
+
     cout << "Contruct some nodes:\n";
+
    IntNode* headObj  = new IntNode(1); // Create IntNode objects (On the Heap)
    IntNode* nodeObj1 = new IntNode(22);
    IntNode* nodeObj2 = new IntNode(333);

@@ -46,9 +46,9 @@ void TimeHrMn::Print() const {
 TimeHrMn TimeHrMn::operator+(TimeHrMn rhs) {
    TimeHrMn timeTotal;
    
-   timeTotal.hours   = hours   + rhs.hours;
-   timeTotal.minutes = minutes + rhs.minutes;
-   timeTotal.seconds = seconds + rhs.seconds;
+   timeTotal.hours   = this->hours   + rhs.hours;
+   timeTotal.minutes = this->minutes + rhs.minutes;
+   timeTotal.seconds = this->seconds + rhs.seconds;
    
    while (timeTotal.seconds>=60.0) {
        
