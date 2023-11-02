@@ -1178,6 +1178,68 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VectorOfIn
   TARGET_PDB = VectorOfInts.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target TemplatedVector
+
+
+#############################################
+# Order-only phony target for TemplatedVector
+
+build cmake_object_order_depends_target_TemplatedVector: phony || CMakeFiles/TemplatedVector.dir
+
+build CMakeFiles/TemplatedVector.dir/Examples/Week11/TemplatedVector/main.cpp.o: CXX_COMPILER__TemplatedVector_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector/main.cpp || cmake_object_order_depends_target_TemplatedVector
+  DEP_FILE = CMakeFiles/TemplatedVector.dir/Examples/Week11/TemplatedVector/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/TemplatedVector.dir
+  OBJECT_FILE_DIR = CMakeFiles/TemplatedVector.dir/Examples/Week11/TemplatedVector
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TemplatedVector
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector: CXX_EXECUTABLE_LINKER__TemplatedVector_Debug CMakeFiles/TemplatedVector.dir/Examples/Week11/TemplatedVector/main.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
+  OBJECT_DIR = CMakeFiles/TemplatedVector.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector
+  TARGET_PDB = TemplatedVector.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TemplatedVector2
+
+
+#############################################
+# Order-only phony target for TemplatedVector2
+
+build cmake_object_order_depends_target_TemplatedVector2: phony || CMakeFiles/TemplatedVector2.dir
+
+build CMakeFiles/TemplatedVector2.dir/Examples/Week11/TemplatedVector2/main.cpp.o: CXX_COMPILER__TemplatedVector2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector2/main.cpp || cmake_object_order_depends_target_TemplatedVector2
+  DEP_FILE = CMakeFiles/TemplatedVector2.dir/Examples/Week11/TemplatedVector2/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/TemplatedVector2.dir
+  OBJECT_FILE_DIR = CMakeFiles/TemplatedVector2.dir/Examples/Week11/TemplatedVector2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TemplatedVector2
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector2
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector2: CXX_EXECUTABLE_LINKER__TemplatedVector2_Debug CMakeFiles/TemplatedVector2.dir/Examples/Week11/TemplatedVector2/main.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6
+  OBJECT_DIR = CMakeFiles/TemplatedVector2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector2
+  TARGET_PDB = TemplatedVector2.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target BinarySearchTree
 
 
@@ -1450,6 +1512,10 @@ build SimpleCar: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPo
 
 build StackHeap: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap
 
+build TemplatedVector: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector
+
+build TemplatedVector2: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector2
+
 build VectorOfInts: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VectorOfInts
 
 build VoidPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers
@@ -1462,7 +1528,7 @@ build VoidPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/Basi
 #############################################
 # Folder: /Users/brash/CLionProjects/cpsc256/cmake-build-debug
 
-build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjectsPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/InheritancePolymorphism /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VectorOfInts /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree2 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPart2
+build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjectsPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/InheritancePolymorphism /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VectorOfInts /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector2 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree2 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPart2
 
 # =============================================================================
 # Built-in targets
