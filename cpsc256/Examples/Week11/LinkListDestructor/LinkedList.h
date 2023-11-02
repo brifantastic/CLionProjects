@@ -25,6 +25,7 @@ public:
    ~LinkedList();  // destructor frees up entire linked list
    
    void Prepend(int dataValue); // add a new node to the front of the list
+   void Append(int dataValue); // add a new node to the end of the list
    
    IntNode* GetHead() const; // return the head pointer
    void SetHead(IntNode* headPtr); // set the head pointer

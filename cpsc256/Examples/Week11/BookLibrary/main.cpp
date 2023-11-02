@@ -49,7 +49,7 @@ Book genBook(long isbn) {
     string temp = "The ";
     
     ifstream inputFS;
-    inputFS.open("/Users/brash/CLionProjects/cpsc256/Examples/BookLibrary/adjectives.txt");
+    inputFS.open("/Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/adjectives.txt");
     vector<string> adjective;
     
     for(string tempAdj; getline(inputFS,tempAdj);) {
@@ -57,7 +57,7 @@ Book genBook(long isbn) {
     }
     inputFS.close();
     
-    inputFS.open("/Users/brash/CLionProjects/cpsc256/Examples/BookLibrary/nouns.txt");
+    inputFS.open("/Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/nouns.txt");
     vector<string> noun;
     
     for(string tempNoun; getline(inputFS,tempNoun);) {
@@ -66,7 +66,7 @@ Book genBook(long isbn) {
     inputFS.close();
     
     
-    inputFS.open("/Users/brash/CLionProjects/cpsc256/Examples/BookLibrary/towns.txt");
+    inputFS.open("/Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/towns.txt");
     vector<string> town;
     
     for(string tempTown; getline(inputFS,tempTown);) {
@@ -75,7 +75,7 @@ Book genBook(long isbn) {
     }
     inputFS.close();
     
-    inputFS.open("/Users/brash/CLionProjects/cpsc256/Examples/BookLibrary/lastnames.txt");
+    inputFS.open("/Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/lastnames.txt");
     vector<string> lastname;
     
     for(string tempLast; getline(inputFS,tempLast);) {
@@ -83,7 +83,7 @@ Book genBook(long isbn) {
     }
     inputFS.close();
     
-    inputFS.open("/Users/brash/CLionProjects/cpsc256/Examples/BookLibrary/firstnames.txt");
+    inputFS.open("/Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/firstnames.txt");
     vector<string> firstname;
     
     for(string tempFirst; getline(inputFS,tempFirst);) {

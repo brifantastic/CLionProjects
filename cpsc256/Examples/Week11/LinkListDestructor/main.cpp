@@ -31,12 +31,17 @@ int main(int argc, char** argv) {
    // and more importantly, this last node will have a null pointer for its next
    // pointer, indicating that it is the last node in the list.
 
-   for (int i = 1; i <= 10; ++i) {
+   for (int i = 1; i <= 5; ++i) {
       list->Prepend(i * 10);
       cout << "Head now at: " << list->GetHead() << endl;
-   } 
-      
-   // Free the linked list.
+   }
+
+    for (int i = 1; i <= 5; ++i) {
+        list->Append((i+5) * 100);
+        cout << "Head now at: " << list->GetHead() << endl;
+    }
+
+    // Free the linked list.
    // The LinkedList class destructor frees each node, starting with the head node.
    // The destructor will call the destructor for each node, which will free the
    // next node, and so on, until the last node is freed.

@@ -43,6 +43,20 @@ void LinkedList::Prepend(int dataValue) {
    head = newNode;
 }
 
+void LinkedList::Append(int dataValue) {
+   IntNode* newNode = new IntNode(dataValue);
+   if (head == nullptr) {
+      head = newNode;
+   }
+   else {
+      IntNode* curr = head;
+      while (curr->GetNext() != nullptr) {
+         curr = curr->GetNext();
+      }
+      curr->SetNext(newNode);
+   }
+}
+
 IntNode* LinkedList::GetHead() const {
     return this->head;
 }
