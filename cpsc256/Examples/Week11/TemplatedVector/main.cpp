@@ -16,8 +16,12 @@ int main() {
    // Create a linked list - this will just create a single node, the head,
    // with data = 0
 
-   //LinkedList<int>* list = new LinkedList<int>;
-   auto list = new LinkedList<int>;
+   // Before templating:
+   // LinkedList* list = new LinkedList;
+   // After templating
+   // LinkedList<int>* list = new LinkedList<int>;
+   // After auto:
+   auto list = new LinkedList<short>;
 
    
    // Prepend several nodes to list
