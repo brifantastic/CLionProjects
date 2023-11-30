@@ -70,6 +70,7 @@ add_executable(TemplatedVector2 Examples/Week11/TemplatedVector2/main.cpp)
 # Week 12
 add_executable(BinarySearchTree Examples/Week12/BinarySearchTree/main.cpp)
 add_executable(BinarySearchTree2 Examples/Week12/BinarySearchTree2/main.cpp Examples/Week12/BinarySearchTree2/BinarySearchTree.cpp)
+add_executable(BinarySearchTreePerformance Examples/Week12/BinarySearchTreePerformance/main.cpp)
 
 # Week 13
 add_executable(StackHeap Examples/Week13/StackHeap/main.cpp)

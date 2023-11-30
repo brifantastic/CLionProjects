@@ -19,7 +19,8 @@ using namespace std;
 class BST
 {
     int data;
-    BST *left, *right;
+    BST* left;
+    BST* right;
  
 public:
     // Default constructor.
@@ -135,7 +136,9 @@ int main()
     elements.push_back(40);
     
     
-    BST b, *root = NULL;
+    BST b;
+    BST* root = NULL;
+
     root = b.Insert(root, elements[0]);
     cout << "After adding " << elements[0] << ", the tree has " << b.Inorder(root) << endl;
     cout << "The height of the tree is " << b.maxDepth(root) << endl;

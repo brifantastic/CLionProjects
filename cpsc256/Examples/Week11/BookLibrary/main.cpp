@@ -20,7 +20,7 @@
 
 using namespace std;
 
-static const unsigned int nelements = 3000;
+static const unsigned int nelements = 300;
 
 void TrimWord(std::string& word)
 {
@@ -283,10 +283,10 @@ int main (int argc, const char* argv[]) {
    linkedListLibrary.PrintLibrary();
    cout << endl;*/
    
-   /*cout << "-----------------------------" << endl;
+   cout << "-----------------------------" << endl;
    cout << "Vector Library: " << endl;
    cout << "-----------------------------" << endl;
-   vectorLibrary.PrintLibrary();*/
+   vectorLibrary.PrintLibrary();
    
    return 0;
 
