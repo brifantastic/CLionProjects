@@ -100,3 +100,7 @@
 40	68	1723319067319943411	HelloWorld	e8c9166191db9286
 2	45	1723319101360810252	CMakeFiles/PrimitiveDataTypes.dir/Examples/Week1/PrimitiveDataTypes/main.c.o	6e74b223b381ecd9
 45	73	1723319101398896037	PrimitiveDataTypes	bb12838df8722dcd
+41	2828	1725030891457834497	CMakeFiles/HelloWorld.dir/Examples/Week1/HelloWorld/main.c.o	6148a7c47b9587bf
+2828	4363	1725030893003542307	HelloWorld	e8c9166191db9286
+42	2813	1725719853785420437	CMakeFiles/FileReader.dir/Examples/Week2/FileReader/main.c.o	202e08cd62b08217
+2814	4368	1725719855344118580	/Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader	172d01126b84a578
