@@ -44,16 +44,23 @@ int main(int argc, char** argv) {
     printf("The pointer corresponding to the input file, before opening, = %p\n",
             inFile);
     
-    /* Get the filename from the user */  
-    char filename[LINE];
-    printf("Enter the filename:\n");
-    
+    /* Either get the filename from the user, or set it directly */
+
+    // Setting the filename directly
+    char filename[LINE] = "StudentInfo.tsv";
+
+    // Getting it from the user
+    //printf("Enter the filename:\n");
+
+    // Option 1: use gets() to get the filename
     //gets(filename);
     // Note:  gets will work, and you will see it in a lot of
     // code, but it has been deprecated in C11, so we probably should not use it
     // anymore.
-   
-    scanf("%s",filename);
+
+    // Option 2: use scanf() to get the filename
+    //scanf("%s",filename);
+
     printf("Filename = %s\n",filename);
 
     char buf[1024]; // hack, but fine for this
@@ -61,11 +68,14 @@ int main(int argc, char** argv) {
     
     /* Open the file for reading */
     inFile = fopen(filename, "r");
+
+    // Or, we could have done this, and it would have been the same:
     //inFile = fopen("StudentInfo.tsv", "r");
    
     printf("The pointer corresponding to the input file, after opening, = %p\n",
             inFile);
-    
+
+    // Check to see if the file was opened successfully
     if (inFile == NULL) {
         printf("Error:  Could not open file:  %s\n",filename);
         exit(-1);
@@ -73,7 +83,7 @@ int main(int argc, char** argv) {
         printf("File opened successfully ... \n");
     }
     
-    char line[LINE]; //char array to hold each "line" read from the file
+    char line[LINE]; //char array to hold each "line" (or field) read from the file
     
     int i = 0, j=0;  // These will hold the column number and row number
     
