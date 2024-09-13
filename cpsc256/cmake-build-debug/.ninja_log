@@ -104,3 +104,7 @@
 2828	4363	1725030893003542307	HelloWorld	e8c9166191db9286
 42	2813	1725719853785420437	CMakeFiles/FileReader.dir/Examples/Week2/FileReader/main.c.o	202e08cd62b08217
 2814	4368	1725719855344118580	/Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader	172d01126b84a578
+10	9452	1726230469449312612	CMakeFiles/Declarations.dir/Examples/Week3/Declarations/main.c.o	21586e0fdfcf586
+9453	15306	1726230475318850872	/Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations	dbb25d96f74822f0
+26	193	1726230490587819825	CMakeFiles/FunctionExample.dir/Examples/Week3/FunctionExample/main.c.o	4824b2d43c81aaf6
+194	417	1726230490827987761	/Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample	1e86fc91bcf3b849
