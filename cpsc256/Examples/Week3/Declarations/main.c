@@ -117,12 +117,18 @@ int main(int argc, char** argv) {
     printf("\n----------------------------\n");
     printf("n1 = %d and n2 = %d\n", n1, n2);
 
+
+    /* Swap Variables Using Temporary Variable */
+    int temp = n1;
+    n1 = n2;
+    n2 = temp;
+
     /* Swap Variables Using Bitwise Operator */
     /* ^ is the "exclusive OR" operator */
 
-    n1 = n1 ^ n2;
-    n2 = n1 ^ n2;
-    n1 = n1 ^ n2;
+    // n1 = n1 ^ n2;
+    // n2 = n1 ^ n2;
+    // n1 = n1 ^ n2;
     
     /* Why does this work?
      * 73 = 101001 in binary

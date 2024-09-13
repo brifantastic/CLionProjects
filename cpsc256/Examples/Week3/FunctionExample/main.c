@@ -38,13 +38,12 @@ void sort_array(int arr[], int size){
                 temp=arr[i];
                 arr[i]=arr[j];
                 arr[j]=temp;
-            }//end of if
-        }//end of inner for
-    }//end of outer for
+            }//end of if block
+        }//end of inner for loop
+    }//end of outer for loop
 }//end of function
 
 int main(){
-
 
     // Pass by value: The function gets a copy of the value
     // of the variable. Any changes to the variable within
