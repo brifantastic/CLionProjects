@@ -9,6 +9,7 @@
 #include <stdlib.h>
 
 // Another useful pre-processor directive is the #define directive
+
 #define THE_ANSWER 42 // numerical constants
 #define REALTYPE double // variable types - makes it easy to switch between
                         // double and float, for example.
@@ -119,16 +120,16 @@ int main(int argc, char** argv) {
 
 
     /* Swap Variables Using Temporary Variable */
-    int temp = n1;
-    n1 = n2;
-    n2 = temp;
+    //int temp = n1;
+    //n1 = n2;
+    //n2 = temp;
 
     /* Swap Variables Using Bitwise Operator */
     /* ^ is the "exclusive OR" operator */
 
-    // n1 = n1 ^ n2;
-    // n2 = n1 ^ n2;
-    // n1 = n1 ^ n2;
+    n1 = n1 ^ n2;
+    n2 = n1 ^ n2;
+    n1 = n1 ^ n2;
     
     /* Why does this work?
      * 73 = 101001 in binary

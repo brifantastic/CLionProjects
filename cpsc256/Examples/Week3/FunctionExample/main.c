@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 void swap_values_copy(int a, int b){
     int temp;
@@ -9,12 +9,12 @@ void swap_values_copy(int a, int b){
     return;
 }
 
-void swap_values(int* a, int* b){
+void swap_values(int* p1, int* p2){
     int temp;
-    temp=*a;
-    *a=*b;
-    *b=temp;
-    printf("a=%d b=%d \n",*a,*b);
+    temp=*p1;
+    *p1=*p2;
+    *p2=temp;
+    printf("a=%d b=%d \n",*p1,*p2);
     return;
 }
 
@@ -56,7 +56,19 @@ int main(){
 
     // Define an array of 6 integers
     int i=0,min=0;
+
+    // Method 1
+    //int numbers[6];
+    //numbers[0]=4;
+    //numbers[1]=5;
+    //numbers[2]=7;
+    //numbers[3]=3;
+    //numbers[4]=8;
+    //numbers[5]=9;
+
+    // Method 2
     int numbers[]={4,5,7,3,8,9};//declaration of array
+
     // Print the array
     for(i=0;i<6;i++){
         printf("numbers[%d]=%d \n",i,numbers[i]);

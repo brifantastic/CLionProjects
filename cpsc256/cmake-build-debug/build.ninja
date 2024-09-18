@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_HelloWorld: phony || CMakeFiles/HelloWor
 
 build CMakeFiles/HelloWorld.dir/Examples/Week1/HelloWorld/main.c.o: C_COMPILER__HelloWorld_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week1/HelloWorld/main.c || cmake_object_order_depends_target_HelloWorld
   DEP_FILE = CMakeFiles/HelloWorld.dir/Examples/Week1/HelloWorld/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/HelloWorld.dir
   OBJECT_FILE_DIR = CMakeFiles/HelloWorld.dir/Examples/Week1/HelloWorld
   TARGET_COMPILE_PDB = CMakeFiles/HelloWorld.dir/
@@ -66,7 +66,7 @@ build CMakeFiles/HelloWorld.dir/Examples/Week1/HelloWorld/main.c.o: C_COMPILER__
 # Link the executable HelloWorld
 
 build HelloWorld: C_EXECUTABLE_LINKER__HelloWorld_Debug CMakeFiles/HelloWorld.dir/Examples/Week1/HelloWorld/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/HelloWorld.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -85,7 +85,7 @@ build cmake_object_order_depends_target_PrimitiveDataTypes: phony || CMakeFiles/
 
 build CMakeFiles/PrimitiveDataTypes.dir/Examples/Week1/PrimitiveDataTypes/main.c.o: C_COMPILER__PrimitiveDataTypes_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week1/PrimitiveDataTypes/main.c || cmake_object_order_depends_target_PrimitiveDataTypes
   DEP_FILE = CMakeFiles/PrimitiveDataTypes.dir/Examples/Week1/PrimitiveDataTypes/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/PrimitiveDataTypes.dir
   OBJECT_FILE_DIR = CMakeFiles/PrimitiveDataTypes.dir/Examples/Week1/PrimitiveDataTypes
   TARGET_COMPILE_PDB = CMakeFiles/PrimitiveDataTypes.dir/
@@ -100,7 +100,7 @@ build CMakeFiles/PrimitiveDataTypes.dir/Examples/Week1/PrimitiveDataTypes/main.c
 # Link the executable PrimitiveDataTypes
 
 build PrimitiveDataTypes: C_EXECUTABLE_LINKER__PrimitiveDataTypes_Debug CMakeFiles/PrimitiveDataTypes.dir/Examples/Week1/PrimitiveDataTypes/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/PrimitiveDataTypes.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -119,7 +119,7 @@ build cmake_object_order_depends_target_FileReader: phony || CMakeFiles/FileRead
 
 build CMakeFiles/FileReader.dir/Examples/Week2/FileReader/main.c.o: C_COMPILER__FileReader_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/main.c || cmake_object_order_depends_target_FileReader
   DEP_FILE = CMakeFiles/FileReader.dir/Examples/Week2/FileReader/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FileReader.dir
   OBJECT_FILE_DIR = CMakeFiles/FileReader.dir/Examples/Week2/FileReader
   TARGET_COMPILE_PDB = CMakeFiles/FileReader.dir/
@@ -134,7 +134,7 @@ build CMakeFiles/FileReader.dir/Examples/Week2/FileReader/main.c.o: C_COMPILER__
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader: C_EXECUTABLE_LINKER__FileReader_Debug CMakeFiles/FileReader.dir/Examples/Week2/FileReader/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/FileReader.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -153,7 +153,7 @@ build cmake_object_order_depends_target_CSVFileReader: phony || CMakeFiles/CSVFi
 
 build CMakeFiles/CSVFileReader.dir/Examples/Week2/CSVFileReader/main.c.o: C_COMPILER__CSVFileReader_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/main.c || cmake_object_order_depends_target_CSVFileReader
   DEP_FILE = CMakeFiles/CSVFileReader.dir/Examples/Week2/CSVFileReader/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/CSVFileReader.dir
   OBJECT_FILE_DIR = CMakeFiles/CSVFileReader.dir/Examples/Week2/CSVFileReader
   TARGET_COMPILE_PDB = CMakeFiles/CSVFileReader.dir/
@@ -168,7 +168,7 @@ build CMakeFiles/CSVFileReader.dir/Examples/Week2/CSVFileReader/main.c.o: C_COMP
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader: C_EXECUTABLE_LINKER__CSVFileReader_Debug CMakeFiles/CSVFileReader.dir/Examples/Week2/CSVFileReader/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/CSVFileReader.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -187,7 +187,7 @@ build cmake_object_order_depends_target_Declarations: phony || CMakeFiles/Declar
 
 build CMakeFiles/Declarations.dir/Examples/Week3/Declarations/main.c.o: C_COMPILER__Declarations_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/Declarations/main.c || cmake_object_order_depends_target_Declarations
   DEP_FILE = CMakeFiles/Declarations.dir/Examples/Week3/Declarations/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Declarations.dir
   OBJECT_FILE_DIR = CMakeFiles/Declarations.dir/Examples/Week3/Declarations
   TARGET_COMPILE_PDB = CMakeFiles/Declarations.dir/
@@ -202,7 +202,7 @@ build CMakeFiles/Declarations.dir/Examples/Week3/Declarations/main.c.o: C_COMPIL
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations: C_EXECUTABLE_LINKER__Declarations_Debug CMakeFiles/Declarations.dir/Examples/Week3/Declarations/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/Declarations.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -221,7 +221,7 @@ build cmake_object_order_depends_target_FormatSpecifiers: phony || CMakeFiles/Fo
 
 build CMakeFiles/FormatSpecifiers.dir/Examples/Week3/FormatSpecifiers/main.c.o: C_COMPILER__FormatSpecifiers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FormatSpecifiers/main.c || cmake_object_order_depends_target_FormatSpecifiers
   DEP_FILE = CMakeFiles/FormatSpecifiers.dir/Examples/Week3/FormatSpecifiers/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FormatSpecifiers.dir
   OBJECT_FILE_DIR = CMakeFiles/FormatSpecifiers.dir/Examples/Week3/FormatSpecifiers
   TARGET_COMPILE_PDB = CMakeFiles/FormatSpecifiers.dir/
@@ -236,7 +236,7 @@ build CMakeFiles/FormatSpecifiers.dir/Examples/Week3/FormatSpecifiers/main.c.o: 
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers: C_EXECUTABLE_LINKER__FormatSpecifiers_Debug CMakeFiles/FormatSpecifiers.dir/Examples/Week3/FormatSpecifiers/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/FormatSpecifiers.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -255,7 +255,7 @@ build cmake_object_order_depends_target_FunctionExample: phony || CMakeFiles/Fun
 
 build CMakeFiles/FunctionExample.dir/Examples/Week3/FunctionExample/main.c.o: C_COMPILER__FunctionExample_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FunctionExample/main.c || cmake_object_order_depends_target_FunctionExample
   DEP_FILE = CMakeFiles/FunctionExample.dir/Examples/Week3/FunctionExample/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FunctionExample.dir
   OBJECT_FILE_DIR = CMakeFiles/FunctionExample.dir/Examples/Week3/FunctionExample
   TARGET_COMPILE_PDB = CMakeFiles/FunctionExample.dir/
@@ -270,7 +270,7 @@ build CMakeFiles/FunctionExample.dir/Examples/Week3/FunctionExample/main.c.o: C_
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample: C_EXECUTABLE_LINKER__FunctionExample_Debug CMakeFiles/FunctionExample.dir/Examples/Week3/FunctionExample/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/FunctionExample.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -289,7 +289,7 @@ build cmake_object_order_depends_target_FileStatistics: phony || CMakeFiles/File
 
 build CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/main.c.o: C_COMPILER__FileStatistics_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/main.c || cmake_object_order_depends_target_FileStatistics
   DEP_FILE = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FileStatistics.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics
   TARGET_COMPILE_PDB = CMakeFiles/FileStatistics.dir/
@@ -297,7 +297,7 @@ build CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/main.c.o: C_CO
 
 build CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/mean.c.o: C_COMPILER__FileStatistics_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/mean.c || cmake_object_order_depends_target_FileStatistics
   DEP_FILE = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/mean.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FileStatistics.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics
   TARGET_COMPILE_PDB = CMakeFiles/FileStatistics.dir/
@@ -305,7 +305,7 @@ build CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/mean.c.o: C_CO
 
 build CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/stdev.c.o: C_COMPILER__FileStatistics_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/stdev.c || cmake_object_order_depends_target_FileStatistics
   DEP_FILE = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/stdev.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FileStatistics.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics
   TARGET_COMPILE_PDB = CMakeFiles/FileStatistics.dir/
@@ -320,7 +320,7 @@ build CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/stdev.c.o: C_C
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics: C_EXECUTABLE_LINKER__FileStatistics_Debug CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/main.c.o CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/mean.c.o CMakeFiles/FileStatistics.dir/Examples/Week3/FileStatistics/stdev.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/FileStatistics.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -339,7 +339,7 @@ build cmake_object_order_depends_target_FileStatistics_Headers: phony || CMakeFi
 
 build CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/main.c.o: C_COMPILER__FileStatistics_Headers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/main.c || cmake_object_order_depends_target_FileStatistics_Headers
   DEP_FILE = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FileStatistics_Headers.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers
   TARGET_COMPILE_PDB = CMakeFiles/FileStatistics_Headers.dir/
@@ -347,7 +347,7 @@ build CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Header
 
 build CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/mean.c.o: C_COMPILER__FileStatistics_Headers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/mean.c || cmake_object_order_depends_target_FileStatistics_Headers
   DEP_FILE = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/mean.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FileStatistics_Headers.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers
   TARGET_COMPILE_PDB = CMakeFiles/FileStatistics_Headers.dir/
@@ -355,7 +355,7 @@ build CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Header
 
 build CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/stdev.c.o: C_COMPILER__FileStatistics_Headers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/stdev.c || cmake_object_order_depends_target_FileStatistics_Headers
   DEP_FILE = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/stdev.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FileStatistics_Headers.dir
   OBJECT_FILE_DIR = CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers
   TARGET_COMPILE_PDB = CMakeFiles/FileStatistics_Headers.dir/
@@ -370,7 +370,7 @@ build CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Header
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers: C_EXECUTABLE_LINKER__FileStatistics_Headers_Debug CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/main.c.o CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/mean.c.o CMakeFiles/FileStatistics_Headers.dir/Examples/Week3/FileStatistics_Headers/stdev.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/FileStatistics_Headers.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -389,7 +389,7 @@ build cmake_object_order_depends_target_BasicPointers: phony || CMakeFiles/Basic
 
 build CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers/main.c.o: C_COMPILER__BasicPointers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/main.c || cmake_object_order_depends_target_BasicPointers
   DEP_FILE = CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BasicPointers.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers
   TARGET_COMPILE_PDB = CMakeFiles/BasicPointers.dir/
@@ -397,7 +397,7 @@ build CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers/main.c.o: C_COMP
 
 build CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers/functions.c.o: C_COMPILER__BasicPointers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/functions.c || cmake_object_order_depends_target_BasicPointers
   DEP_FILE = CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers/functions.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BasicPointers.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers
   TARGET_COMPILE_PDB = CMakeFiles/BasicPointers.dir/
@@ -412,7 +412,7 @@ build CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers/functions.c.o: C
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers: C_EXECUTABLE_LINKER__BasicPointers_Debug CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers/main.c.o CMakeFiles/BasicPointers.dir/Examples/Week4/BasicPointers/functions.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/BasicPointers.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -431,7 +431,7 @@ build cmake_object_order_depends_target_VoidPointers: phony || CMakeFiles/VoidPo
 
 build CMakeFiles/VoidPointers.dir/Examples/Week4/VoidPointers/main.c.o: C_COMPILER__VoidPointers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week4/VoidPointers/main.c || cmake_object_order_depends_target_VoidPointers
   DEP_FILE = CMakeFiles/VoidPointers.dir/Examples/Week4/VoidPointers/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/VoidPointers.dir
   OBJECT_FILE_DIR = CMakeFiles/VoidPointers.dir/Examples/Week4/VoidPointers
   TARGET_COMPILE_PDB = CMakeFiles/VoidPointers.dir/
@@ -446,7 +446,7 @@ build CMakeFiles/VoidPointers.dir/Examples/Week4/VoidPointers/main.c.o: C_COMPIL
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers: C_EXECUTABLE_LINKER__VoidPointers_Debug CMakeFiles/VoidPointers.dir/Examples/Week4/VoidPointers/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/VoidPointers.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -465,7 +465,7 @@ build cmake_object_order_depends_target_QuickSort: phony || CMakeFiles/QuickSort
 
 build CMakeFiles/QuickSort.dir/Examples/Week4/QuickSort/main.c.o: C_COMPILER__QuickSort_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week4/QuickSort/main.c || cmake_object_order_depends_target_QuickSort
   DEP_FILE = CMakeFiles/QuickSort.dir/Examples/Week4/QuickSort/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/QuickSort.dir
   OBJECT_FILE_DIR = CMakeFiles/QuickSort.dir/Examples/Week4/QuickSort
   TARGET_COMPILE_PDB = CMakeFiles/QuickSort.dir/
@@ -480,7 +480,7 @@ build CMakeFiles/QuickSort.dir/Examples/Week4/QuickSort/main.c.o: C_COMPILER__Qu
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort: C_EXECUTABLE_LINKER__QuickSort_Debug CMakeFiles/QuickSort.dir/Examples/Week4/QuickSort/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/QuickSort.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -499,7 +499,7 @@ build cmake_object_order_depends_target_Restaurant_C_Example: phony || CMakeFile
 
 build CMakeFiles/Restaurant_C_Example.dir/Examples/Week5/Restaurant_C_Example/main.c.o: C_COMPILER__Restaurant_C_Example_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/Restaurant_C_Example/main.c || cmake_object_order_depends_target_Restaurant_C_Example
   DEP_FILE = CMakeFiles/Restaurant_C_Example.dir/Examples/Week5/Restaurant_C_Example/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Restaurant_C_Example.dir
   OBJECT_FILE_DIR = CMakeFiles/Restaurant_C_Example.dir/Examples/Week5/Restaurant_C_Example
   TARGET_COMPILE_PDB = CMakeFiles/Restaurant_C_Example.dir/
@@ -514,7 +514,7 @@ build CMakeFiles/Restaurant_C_Example.dir/Examples/Week5/Restaurant_C_Example/ma
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example: C_EXECUTABLE_LINKER__Restaurant_C_Example_Debug CMakeFiles/Restaurant_C_Example.dir/Examples/Week5/Restaurant_C_Example/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/Restaurant_C_Example.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -533,7 +533,7 @@ build cmake_object_order_depends_target_PointerCar: phony || CMakeFiles/PointerC
 
 build CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/main.c.o: C_COMPILER__PointerCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/main.c || cmake_object_order_depends_target_PointerCar
   DEP_FILE = CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/PointerCar.dir
   OBJECT_FILE_DIR = CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar
   TARGET_COMPILE_PDB = CMakeFiles/PointerCar.dir/
@@ -541,7 +541,7 @@ build CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/main.c.o: C_COMPILER__
 
 build CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/PointerCar.c.o: C_COMPILER__PointerCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/PointerCar/PointerCar.c || cmake_object_order_depends_target_PointerCar
   DEP_FILE = CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/PointerCar.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/PointerCar.dir
   OBJECT_FILE_DIR = CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar
   TARGET_COMPILE_PDB = CMakeFiles/PointerCar.dir/
@@ -556,7 +556,7 @@ build CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/PointerCar.c.o: C_COMP
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar: C_EXECUTABLE_LINKER__PointerCar_Debug CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/main.c.o CMakeFiles/PointerCar.dir/Examples/Week5/PointerCar/PointerCar.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/PointerCar.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -575,7 +575,7 @@ build cmake_object_order_depends_target_SimpleCar: phony || CMakeFiles/SimpleCar
 
 build CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/main.c.o: C_COMPILER__SimpleCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/main.c || cmake_object_order_depends_target_SimpleCar
   DEP_FILE = CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/SimpleCar.dir
   OBJECT_FILE_DIR = CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar
   TARGET_COMPILE_PDB = CMakeFiles/SimpleCar.dir/
@@ -583,7 +583,7 @@ build CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/main.c.o: C_COMPILER__Si
 
 build CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/SimpleCar.c.o: C_COMPILER__SimpleCar_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/SimpleCar/SimpleCar.c || cmake_object_order_depends_target_SimpleCar
   DEP_FILE = CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/SimpleCar.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/SimpleCar.dir
   OBJECT_FILE_DIR = CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar
   TARGET_COMPILE_PDB = CMakeFiles/SimpleCar.dir/
@@ -598,7 +598,7 @@ build CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/SimpleCar.c.o: C_COMPILE
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar: C_EXECUTABLE_LINKER__SimpleCar_Debug CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/main.c.o CMakeFiles/SimpleCar.dir/Examples/Week5/SimpleCar/SimpleCar.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/SimpleCar.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -617,7 +617,7 @@ build cmake_object_order_depends_target_CoinFlip: phony || CMakeFiles/CoinFlip.d
 
 build CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/main.c.o: C_COMPILER__CoinFlip_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/CoinFlip/main.c || cmake_object_order_depends_target_CoinFlip
   DEP_FILE = CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/CoinFlip.dir
   OBJECT_FILE_DIR = CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip
   TARGET_COMPILE_PDB = CMakeFiles/CoinFlip.dir/
@@ -625,7 +625,7 @@ build CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/main.c.o: C_COMPILER__Coin
 
 build CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/Coin.c.o: C_COMPILER__CoinFlip_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week5/CoinFlip/Coin.c || cmake_object_order_depends_target_CoinFlip
   DEP_FILE = CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/Coin.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/CoinFlip.dir
   OBJECT_FILE_DIR = CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip
   TARGET_COMPILE_PDB = CMakeFiles/CoinFlip.dir/
@@ -640,7 +640,7 @@ build CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/Coin.c.o: C_COMPILER__Coin
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip: C_EXECUTABLE_LINKER__CoinFlip_Debug CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/main.c.o CMakeFiles/CoinFlip.dir/Examples/Week5/CoinFlip/Coin.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/CoinFlip.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -659,7 +659,7 @@ build cmake_object_order_depends_target_HelloWorldCPP: phony || CMakeFiles/Hello
 
 build CMakeFiles/HelloWorldCPP.dir/Examples/Week6/HelloWorldCPP/main.cpp.o: CXX_COMPILER__HelloWorldCPP_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week6/HelloWorldCPP/main.cpp || cmake_object_order_depends_target_HelloWorldCPP
   DEP_FILE = CMakeFiles/HelloWorldCPP.dir/Examples/Week6/HelloWorldCPP/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/HelloWorldCPP.dir
   OBJECT_FILE_DIR = CMakeFiles/HelloWorldCPP.dir/Examples/Week6/HelloWorldCPP
   TARGET_COMPILE_PDB = CMakeFiles/HelloWorldCPP.dir/
@@ -674,7 +674,7 @@ build CMakeFiles/HelloWorldCPP.dir/Examples/Week6/HelloWorldCPP/main.cpp.o: CXX_
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP: CXX_EXECUTABLE_LINKER__HelloWorldCPP_Debug CMakeFiles/HelloWorldCPP.dir/Examples/Week6/HelloWorldCPP/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/HelloWorldCPP.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -693,7 +693,7 @@ build cmake_object_order_depends_target_BasicVectorCPP: phony || CMakeFiles/Basi
 
 build CMakeFiles/BasicVectorCPP.dir/Examples/Week6/BasicVectorCPP/main.cpp.o: CXX_COMPILER__BasicVectorCPP_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week6/BasicVectorCPP/main.cpp || cmake_object_order_depends_target_BasicVectorCPP
   DEP_FILE = CMakeFiles/BasicVectorCPP.dir/Examples/Week6/BasicVectorCPP/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BasicVectorCPP.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicVectorCPP.dir/Examples/Week6/BasicVectorCPP
   TARGET_COMPILE_PDB = CMakeFiles/BasicVectorCPP.dir/
@@ -708,7 +708,7 @@ build CMakeFiles/BasicVectorCPP.dir/Examples/Week6/BasicVectorCPP/main.cpp.o: CX
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP: CXX_EXECUTABLE_LINKER__BasicVectorCPP_Debug CMakeFiles/BasicVectorCPP.dir/Examples/Week6/BasicVectorCPP/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/BasicVectorCPP.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -727,7 +727,7 @@ build cmake_object_order_depends_target_FunctionOverloading: phony || CMakeFiles
 
 build CMakeFiles/FunctionOverloading.dir/Examples/Week6/FunctionOverloading/main.cpp.o: CXX_COMPILER__FunctionOverloading_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week6/FunctionOverloading/main.cpp || cmake_object_order_depends_target_FunctionOverloading
   DEP_FILE = CMakeFiles/FunctionOverloading.dir/Examples/Week6/FunctionOverloading/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FunctionOverloading.dir
   OBJECT_FILE_DIR = CMakeFiles/FunctionOverloading.dir/Examples/Week6/FunctionOverloading
   TARGET_COMPILE_PDB = CMakeFiles/FunctionOverloading.dir/
@@ -742,7 +742,7 @@ build CMakeFiles/FunctionOverloading.dir/Examples/Week6/FunctionOverloading/main
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading: CXX_EXECUTABLE_LINKER__FunctionOverloading_Debug CMakeFiles/FunctionOverloading.dir/Examples/Week6/FunctionOverloading/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/FunctionOverloading.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -761,7 +761,7 @@ build cmake_object_order_depends_target_PassBy: phony || CMakeFiles/PassBy.dir
 
 build CMakeFiles/PassBy.dir/Examples/Week7/PassBy/main.cpp.o: CXX_COMPILER__PassBy_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week7/PassBy/main.cpp || cmake_object_order_depends_target_PassBy
   DEP_FILE = CMakeFiles/PassBy.dir/Examples/Week7/PassBy/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/PassBy.dir
   OBJECT_FILE_DIR = CMakeFiles/PassBy.dir/Examples/Week7/PassBy
   TARGET_COMPILE_PDB = CMakeFiles/PassBy.dir/
@@ -776,7 +776,7 @@ build CMakeFiles/PassBy.dir/Examples/Week7/PassBy/main.cpp.o: CXX_COMPILER__Pass
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy: CXX_EXECUTABLE_LINKER__PassBy_Debug CMakeFiles/PassBy.dir/Examples/Week7/PassBy/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/PassBy.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -795,7 +795,7 @@ build cmake_object_order_depends_target_BasicObjects: phony || CMakeFiles/BasicO
 
 build CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/main.cpp.o: CXX_COMPILER__BasicObjects_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/main.cpp || cmake_object_order_depends_target_BasicObjects
   DEP_FILE = CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BasicObjects.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects
   TARGET_COMPILE_PDB = CMakeFiles/BasicObjects.dir/
@@ -803,7 +803,7 @@ build CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/main.cpp.o: CXX_CO
 
 build CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/Restaurant.cpp.o: CXX_COMPILER__BasicObjects_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week7/BasicObjects/Restaurant.cpp || cmake_object_order_depends_target_BasicObjects
   DEP_FILE = CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/Restaurant.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BasicObjects.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects
   TARGET_COMPILE_PDB = CMakeFiles/BasicObjects.dir/
@@ -818,7 +818,7 @@ build CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/Restaurant.cpp.o: 
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects: CXX_EXECUTABLE_LINKER__BasicObjects_Debug CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/main.cpp.o CMakeFiles/BasicObjects.dir/Examples/Week7/BasicObjects/Restaurant.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/BasicObjects.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -837,7 +837,7 @@ build cmake_object_order_depends_target_MultipleClasses: phony || CMakeFiles/Mul
 
 build CMakeFiles/MultipleClasses.dir/Examples/Week7/MultipleClasses/main.cpp.o: CXX_COMPILER__MultipleClasses_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week7/MultipleClasses/main.cpp || cmake_object_order_depends_target_MultipleClasses
   DEP_FILE = CMakeFiles/MultipleClasses.dir/Examples/Week7/MultipleClasses/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/MultipleClasses.dir
   OBJECT_FILE_DIR = CMakeFiles/MultipleClasses.dir/Examples/Week7/MultipleClasses
   TARGET_COMPILE_PDB = CMakeFiles/MultipleClasses.dir/
@@ -852,7 +852,7 @@ build CMakeFiles/MultipleClasses.dir/Examples/Week7/MultipleClasses/main.cpp.o: 
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses: CXX_EXECUTABLE_LINKER__MultipleClasses_Debug CMakeFiles/MultipleClasses.dir/Examples/Week7/MultipleClasses/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/MultipleClasses.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -871,7 +871,7 @@ build cmake_object_order_depends_target_PointersCPP: phony || CMakeFiles/Pointer
 
 build CMakeFiles/PointersCPP.dir/Examples/Week8/PointersCPP/main.cpp.o: CXX_COMPILER__PointersCPP_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week8/PointersCPP/main.cpp || cmake_object_order_depends_target_PointersCPP
   DEP_FILE = CMakeFiles/PointersCPP.dir/Examples/Week8/PointersCPP/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/PointersCPP.dir
   OBJECT_FILE_DIR = CMakeFiles/PointersCPP.dir/Examples/Week8/PointersCPP
   TARGET_COMPILE_PDB = CMakeFiles/PointersCPP.dir/
@@ -886,7 +886,7 @@ build CMakeFiles/PointersCPP.dir/Examples/Week8/PointersCPP/main.cpp.o: CXX_COMP
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP: CXX_EXECUTABLE_LINKER__PointersCPP_Debug CMakeFiles/PointersCPP.dir/Examples/Week8/PointersCPP/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/PointersCPP.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -905,7 +905,7 @@ build cmake_object_order_depends_target_BasicObjectsPointers: phony || CMakeFile
 
 build CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/main.cpp.o: CXX_COMPILER__BasicObjectsPointers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week8/BasicObjectsPointers/main.cpp || cmake_object_order_depends_target_BasicObjectsPointers
   DEP_FILE = CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BasicObjectsPointers.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers
   TARGET_COMPILE_PDB = CMakeFiles/BasicObjectsPointers.dir/
@@ -913,7 +913,7 @@ build CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/ma
 
 build CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/Restaurant.cpp.o: CXX_COMPILER__BasicObjectsPointers_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week8/BasicObjectsPointers/Restaurant.cpp || cmake_object_order_depends_target_BasicObjectsPointers
   DEP_FILE = CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/Restaurant.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BasicObjectsPointers.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers
   TARGET_COMPILE_PDB = CMakeFiles/BasicObjectsPointers.dir/
@@ -928,7 +928,7 @@ build CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/Re
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjectsPointers
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjectsPointers: CXX_EXECUTABLE_LINKER__BasicObjectsPointers_Debug CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/main.cpp.o CMakeFiles/BasicObjectsPointers.dir/Examples/Week8/BasicObjectsPointers/Restaurant.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/BasicObjectsPointers.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -947,7 +947,7 @@ build cmake_object_order_depends_target_ArtistAndArtwork: phony || CMakeFiles/Ar
 
 build CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/main.cpp.o: CXX_COMPILER__ArtistAndArtwork_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/main.cpp || cmake_object_order_depends_target_ArtistAndArtwork
   DEP_FILE = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
   OBJECT_FILE_DIR = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork
   TARGET_COMPILE_PDB = CMakeFiles/ArtistAndArtwork.dir/
@@ -955,7 +955,7 @@ build CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/main.cpp.o
 
 build CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artist.cpp.o: CXX_COMPILER__ArtistAndArtwork_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/Artist.cpp || cmake_object_order_depends_target_ArtistAndArtwork
   DEP_FILE = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artist.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
   OBJECT_FILE_DIR = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork
   TARGET_COMPILE_PDB = CMakeFiles/ArtistAndArtwork.dir/
@@ -963,7 +963,7 @@ build CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artist.cpp
 
 build CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artwork.cpp.o: CXX_COMPILER__ArtistAndArtwork_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week9/ArtistAndArtwork/Artwork.cpp || cmake_object_order_depends_target_ArtistAndArtwork
   DEP_FILE = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artwork.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
   OBJECT_FILE_DIR = CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork
   TARGET_COMPILE_PDB = CMakeFiles/ArtistAndArtwork.dir/
@@ -978,7 +978,7 @@ build CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artwork.cp
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork: CXX_EXECUTABLE_LINKER__ArtistAndArtwork_Debug CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/main.cpp.o CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artist.cpp.o CMakeFiles/ArtistAndArtwork.dir/Examples/Week9/ArtistAndArtwork/Artwork.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/ArtistAndArtwork.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -997,7 +997,7 @@ build cmake_object_order_depends_target_CopyConstructorExample: phony || CMakeFi
 
 build CMakeFiles/CopyConstructorExample.dir/Examples/Week9/CopyConstructorExample/main.cpp.o: CXX_COMPILER__CopyConstructorExample_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week9/CopyConstructorExample/main.cpp || cmake_object_order_depends_target_CopyConstructorExample
   DEP_FILE = CMakeFiles/CopyConstructorExample.dir/Examples/Week9/CopyConstructorExample/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/CopyConstructorExample.dir
   OBJECT_FILE_DIR = CMakeFiles/CopyConstructorExample.dir/Examples/Week9/CopyConstructorExample
   TARGET_COMPILE_PDB = CMakeFiles/CopyConstructorExample.dir/
@@ -1012,7 +1012,7 @@ build CMakeFiles/CopyConstructorExample.dir/Examples/Week9/CopyConstructorExampl
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample: CXX_EXECUTABLE_LINKER__CopyConstructorExample_Debug CMakeFiles/CopyConstructorExample.dir/Examples/Week9/CopyConstructorExample/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/CopyConstructorExample.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1031,7 +1031,7 @@ build cmake_object_order_depends_target_FunctionTemplates: phony || CMakeFiles/F
 
 build CMakeFiles/FunctionTemplates.dir/Examples/Week10/FunctionTemplates/main.cpp.o: CXX_COMPILER__FunctionTemplates_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week10/FunctionTemplates/main.cpp || cmake_object_order_depends_target_FunctionTemplates
   DEP_FILE = CMakeFiles/FunctionTemplates.dir/Examples/Week10/FunctionTemplates/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/FunctionTemplates.dir
   OBJECT_FILE_DIR = CMakeFiles/FunctionTemplates.dir/Examples/Week10/FunctionTemplates
   TARGET_COMPILE_PDB = CMakeFiles/FunctionTemplates.dir/
@@ -1046,7 +1046,7 @@ build CMakeFiles/FunctionTemplates.dir/Examples/Week10/FunctionTemplates/main.cp
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates: CXX_EXECUTABLE_LINKER__FunctionTemplates_Debug CMakeFiles/FunctionTemplates.dir/Examples/Week10/FunctionTemplates/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/FunctionTemplates.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1065,7 +1065,7 @@ build cmake_object_order_depends_target_OperatorOverloading: phony || CMakeFiles
 
 build CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/main.cpp.o: CXX_COMPILER__OperatorOverloading_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week10/OperatorOverloading/main.cpp || cmake_object_order_depends_target_OperatorOverloading
   DEP_FILE = CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/OperatorOverloading.dir
   OBJECT_FILE_DIR = CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading
   TARGET_COMPILE_PDB = CMakeFiles/OperatorOverloading.dir/
@@ -1073,7 +1073,7 @@ build CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/mai
 
 build CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/TimeHrMn.cpp.o: CXX_COMPILER__OperatorOverloading_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week10/OperatorOverloading/TimeHrMn.cpp || cmake_object_order_depends_target_OperatorOverloading
   DEP_FILE = CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/TimeHrMn.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/OperatorOverloading.dir
   OBJECT_FILE_DIR = CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading
   TARGET_COMPILE_PDB = CMakeFiles/OperatorOverloading.dir/
@@ -1088,7 +1088,7 @@ build CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/Tim
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading: CXX_EXECUTABLE_LINKER__OperatorOverloading_Debug CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/main.cpp.o CMakeFiles/OperatorOverloading.dir/Examples/Week10/OperatorOverloading/TimeHrMn.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/OperatorOverloading.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1107,7 +1107,7 @@ build cmake_object_order_depends_target_InheritancePolymorphism: phony || CMakeF
 
 build CMakeFiles/InheritancePolymorphism.dir/Examples/Week10/InheritancePolymorphism/main.cpp.o: CXX_COMPILER__InheritancePolymorphism_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week10/InheritancePolymorphism/main.cpp || cmake_object_order_depends_target_InheritancePolymorphism
   DEP_FILE = CMakeFiles/InheritancePolymorphism.dir/Examples/Week10/InheritancePolymorphism/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/InheritancePolymorphism.dir
   OBJECT_FILE_DIR = CMakeFiles/InheritancePolymorphism.dir/Examples/Week10/InheritancePolymorphism
   TARGET_COMPILE_PDB = CMakeFiles/InheritancePolymorphism.dir/
@@ -1122,7 +1122,7 @@ build CMakeFiles/InheritancePolymorphism.dir/Examples/Week10/InheritancePolymorp
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/InheritancePolymorphism
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/InheritancePolymorphism: CXX_EXECUTABLE_LINKER__InheritancePolymorphism_Debug CMakeFiles/InheritancePolymorphism.dir/Examples/Week10/InheritancePolymorphism/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/InheritancePolymorphism.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1141,7 +1141,7 @@ build cmake_object_order_depends_target_BasicLinkedList: phony || CMakeFiles/Bas
 
 build CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/main.cpp.o: CXX_COMPILER__BasicLinkedList_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/main.cpp || cmake_object_order_depends_target_BasicLinkedList
   DEP_FILE = CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BasicLinkedList.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList
   TARGET_COMPILE_PDB = CMakeFiles/BasicLinkedList.dir/
@@ -1149,7 +1149,7 @@ build CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/main.cpp.o:
 
 build CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/IntNode.cpp.o: CXX_COMPILER__BasicLinkedList_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/BasicLinkedList/IntNode.cpp || cmake_object_order_depends_target_BasicLinkedList
   DEP_FILE = CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/IntNode.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BasicLinkedList.dir
   OBJECT_FILE_DIR = CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList
   TARGET_COMPILE_PDB = CMakeFiles/BasicLinkedList.dir/
@@ -1164,7 +1164,7 @@ build CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/IntNode.cpp
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList: CXX_EXECUTABLE_LINKER__BasicLinkedList_Debug CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/main.cpp.o CMakeFiles/BasicLinkedList.dir/Examples/Week11/BasicLinkedList/IntNode.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/BasicLinkedList.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1183,7 +1183,7 @@ build cmake_object_order_depends_target_LinkListDestructor: phony || CMakeFiles/
 
 build CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/main.cpp.o: CXX_COMPILER__LinkListDestructor_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/main.cpp || cmake_object_order_depends_target_LinkListDestructor
   DEP_FILE = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/LinkListDestructor.dir
   OBJECT_FILE_DIR = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor
   TARGET_COMPILE_PDB = CMakeFiles/LinkListDestructor.dir/
@@ -1191,7 +1191,7 @@ build CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/main.
 
 build CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/IntNode.cpp.o: CXX_COMPILER__LinkListDestructor_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/IntNode.cpp || cmake_object_order_depends_target_LinkListDestructor
   DEP_FILE = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/IntNode.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/LinkListDestructor.dir
   OBJECT_FILE_DIR = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor
   TARGET_COMPILE_PDB = CMakeFiles/LinkListDestructor.dir/
@@ -1199,7 +1199,7 @@ build CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/IntNo
 
 build CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/LinkedList.cpp.o: CXX_COMPILER__LinkListDestructor_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/LinkListDestructor/LinkedList.cpp || cmake_object_order_depends_target_LinkListDestructor
   DEP_FILE = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/LinkedList.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/LinkListDestructor.dir
   OBJECT_FILE_DIR = CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor
   TARGET_COMPILE_PDB = CMakeFiles/LinkListDestructor.dir/
@@ -1214,7 +1214,7 @@ build CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/Linke
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor: CXX_EXECUTABLE_LINKER__LinkListDestructor_Debug CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/main.cpp.o CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/IntNode.cpp.o CMakeFiles/LinkListDestructor.dir/Examples/Week11/LinkListDestructor/LinkedList.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/LinkListDestructor.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1233,7 +1233,7 @@ build cmake_object_order_depends_target_BookLibrary: phony || CMakeFiles/BookLib
 
 build CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/main.cpp.o: CXX_COMPILER__BookLibrary_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/main.cpp || cmake_object_order_depends_target_BookLibrary
   DEP_FILE = CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BookLibrary.dir
   OBJECT_FILE_DIR = CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary
   TARGET_COMPILE_PDB = CMakeFiles/BookLibrary.dir/
@@ -1241,7 +1241,7 @@ build CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/main.cpp.o: CXX_COM
 
 build CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/BookLibary.cpp.o: CXX_COMPILER__BookLibrary_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibrary/BookLibary.cpp || cmake_object_order_depends_target_BookLibrary
   DEP_FILE = CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/BookLibary.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BookLibrary.dir
   OBJECT_FILE_DIR = CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary
   TARGET_COMPILE_PDB = CMakeFiles/BookLibrary.dir/
@@ -1256,7 +1256,7 @@ build CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/BookLibary.cpp.o: C
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary: CXX_EXECUTABLE_LINKER__BookLibrary_Debug CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/main.cpp.o CMakeFiles/BookLibrary.dir/Examples/Week11/BookLibrary/BookLibary.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/BookLibrary.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1275,7 +1275,7 @@ build cmake_object_order_depends_target_BookLibraryZybooks: phony || CMakeFiles/
 
 build CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/main.cpp.o: CXX_COMPILER__BookLibraryZybooks_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibraryZybooks/main.cpp || cmake_object_order_depends_target_BookLibraryZybooks
   DEP_FILE = CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BookLibraryZybooks.dir
   OBJECT_FILE_DIR = CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks
   TARGET_COMPILE_PDB = CMakeFiles/BookLibraryZybooks.dir/
@@ -1283,7 +1283,7 @@ build CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/main.
 
 build CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/BookLibary.cpp.o: CXX_COMPILER__BookLibraryZybooks_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/BookLibraryZybooks/BookLibary.cpp || cmake_object_order_depends_target_BookLibraryZybooks
   DEP_FILE = CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/BookLibary.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BookLibraryZybooks.dir
   OBJECT_FILE_DIR = CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks
   TARGET_COMPILE_PDB = CMakeFiles/BookLibraryZybooks.dir/
@@ -1298,7 +1298,7 @@ build CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/BookL
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibraryZybooks
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibraryZybooks: CXX_EXECUTABLE_LINKER__BookLibraryZybooks_Debug CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/main.cpp.o CMakeFiles/BookLibraryZybooks.dir/Examples/Week11/BookLibraryZybooks/BookLibary.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/BookLibraryZybooks.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1317,7 +1317,7 @@ build cmake_object_order_depends_target_MileageTracker: phony || CMakeFiles/Mile
 
 build CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/main.cpp.o: CXX_COMPILER__MileageTracker_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/MileageTracker/main.cpp || cmake_object_order_depends_target_MileageTracker
   DEP_FILE = CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/MileageTracker.dir
   OBJECT_FILE_DIR = CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker
   TARGET_COMPILE_PDB = CMakeFiles/MileageTracker.dir/
@@ -1325,7 +1325,7 @@ build CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/main.cpp.o: C
 
 build CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/MileageTrackerNode.cpp.o: CXX_COMPILER__MileageTracker_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/MileageTracker/MileageTrackerNode.cpp || cmake_object_order_depends_target_MileageTracker
   DEP_FILE = CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/MileageTrackerNode.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/MileageTracker.dir
   OBJECT_FILE_DIR = CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker
   TARGET_COMPILE_PDB = CMakeFiles/MileageTracker.dir/
@@ -1340,7 +1340,7 @@ build CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/MileageTracke
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MileageTracker
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MileageTracker: CXX_EXECUTABLE_LINKER__MileageTracker_Debug CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/main.cpp.o CMakeFiles/MileageTracker.dir/Examples/Week11/MileageTracker/MileageTrackerNode.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/MileageTracker.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1359,7 +1359,7 @@ build cmake_object_order_depends_target_VectorOfInts: phony || CMakeFiles/Vector
 
 build CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/main.cpp.o: CXX_COMPILER__VectorOfInts_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/main.cpp || cmake_object_order_depends_target_VectorOfInts
   DEP_FILE = CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/VectorOfInts.dir
   OBJECT_FILE_DIR = CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts
   TARGET_COMPILE_PDB = CMakeFiles/VectorOfInts.dir/
@@ -1367,7 +1367,7 @@ build CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/main.cpp.o: CXX_C
 
 build CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/LinkedList.cpp.o: CXX_COMPILER__VectorOfInts_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/LinkedList.cpp || cmake_object_order_depends_target_VectorOfInts
   DEP_FILE = CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/LinkedList.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/VectorOfInts.dir
   OBJECT_FILE_DIR = CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts
   TARGET_COMPILE_PDB = CMakeFiles/VectorOfInts.dir/
@@ -1375,7 +1375,7 @@ build CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/LinkedList.cpp.o:
 
 build CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/IntNode.cpp.o: CXX_COMPILER__VectorOfInts_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/VectorOfInts/IntNode.cpp || cmake_object_order_depends_target_VectorOfInts
   DEP_FILE = CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/IntNode.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/VectorOfInts.dir
   OBJECT_FILE_DIR = CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts
   TARGET_COMPILE_PDB = CMakeFiles/VectorOfInts.dir/
@@ -1390,7 +1390,7 @@ build CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/IntNode.cpp.o: CX
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VectorOfInts
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VectorOfInts: CXX_EXECUTABLE_LINKER__VectorOfInts_Debug CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/main.cpp.o CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/LinkedList.cpp.o CMakeFiles/VectorOfInts.dir/Examples/Week11/VectorOfInts/IntNode.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/VectorOfInts.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1409,7 +1409,7 @@ build cmake_object_order_depends_target_TemplatedVector: phony || CMakeFiles/Tem
 
 build CMakeFiles/TemplatedVector.dir/Examples/Week11/TemplatedVector/main.cpp.o: CXX_COMPILER__TemplatedVector_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector/main.cpp || cmake_object_order_depends_target_TemplatedVector
   DEP_FILE = CMakeFiles/TemplatedVector.dir/Examples/Week11/TemplatedVector/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/TemplatedVector.dir
   OBJECT_FILE_DIR = CMakeFiles/TemplatedVector.dir/Examples/Week11/TemplatedVector
   TARGET_COMPILE_PDB = CMakeFiles/TemplatedVector.dir/
@@ -1424,7 +1424,7 @@ build CMakeFiles/TemplatedVector.dir/Examples/Week11/TemplatedVector/main.cpp.o:
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector: CXX_EXECUTABLE_LINKER__TemplatedVector_Debug CMakeFiles/TemplatedVector.dir/Examples/Week11/TemplatedVector/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/TemplatedVector.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1443,7 +1443,7 @@ build cmake_object_order_depends_target_TemplatedVector2: phony || CMakeFiles/Te
 
 build CMakeFiles/TemplatedVector2.dir/Examples/Week11/TemplatedVector2/main.cpp.o: CXX_COMPILER__TemplatedVector2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week11/TemplatedVector2/main.cpp || cmake_object_order_depends_target_TemplatedVector2
   DEP_FILE = CMakeFiles/TemplatedVector2.dir/Examples/Week11/TemplatedVector2/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/TemplatedVector2.dir
   OBJECT_FILE_DIR = CMakeFiles/TemplatedVector2.dir/Examples/Week11/TemplatedVector2
   TARGET_COMPILE_PDB = CMakeFiles/TemplatedVector2.dir/
@@ -1458,7 +1458,7 @@ build CMakeFiles/TemplatedVector2.dir/Examples/Week11/TemplatedVector2/main.cpp.
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector2
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector2: CXX_EXECUTABLE_LINKER__TemplatedVector2_Debug CMakeFiles/TemplatedVector2.dir/Examples/Week11/TemplatedVector2/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/TemplatedVector2.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1477,7 +1477,7 @@ build cmake_object_order_depends_target_BinarySearchTree: phony || CMakeFiles/Bi
 
 build CMakeFiles/BinarySearchTree.dir/Examples/Week12/BinarySearchTree/main.cpp.o: CXX_COMPILER__BinarySearchTree_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree/main.cpp || cmake_object_order_depends_target_BinarySearchTree
   DEP_FILE = CMakeFiles/BinarySearchTree.dir/Examples/Week12/BinarySearchTree/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BinarySearchTree.dir
   OBJECT_FILE_DIR = CMakeFiles/BinarySearchTree.dir/Examples/Week12/BinarySearchTree
   TARGET_COMPILE_PDB = CMakeFiles/BinarySearchTree.dir/
@@ -1492,7 +1492,7 @@ build CMakeFiles/BinarySearchTree.dir/Examples/Week12/BinarySearchTree/main.cpp.
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree: CXX_EXECUTABLE_LINKER__BinarySearchTree_Debug CMakeFiles/BinarySearchTree.dir/Examples/Week12/BinarySearchTree/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/BinarySearchTree.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1511,7 +1511,7 @@ build cmake_object_order_depends_target_BinarySearchTree2: phony || CMakeFiles/B
 
 build CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/main.cpp.o: CXX_COMPILER__BinarySearchTree2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree2/main.cpp || cmake_object_order_depends_target_BinarySearchTree2
   DEP_FILE = CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BinarySearchTree2.dir
   OBJECT_FILE_DIR = CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2
   TARGET_COMPILE_PDB = CMakeFiles/BinarySearchTree2.dir/
@@ -1519,7 +1519,7 @@ build CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/main.cp
 
 build CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/BinarySearchTree.cpp.o: CXX_COMPILER__BinarySearchTree2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTree2/BinarySearchTree.cpp || cmake_object_order_depends_target_BinarySearchTree2
   DEP_FILE = CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/BinarySearchTree.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BinarySearchTree2.dir
   OBJECT_FILE_DIR = CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2
   TARGET_COMPILE_PDB = CMakeFiles/BinarySearchTree2.dir/
@@ -1534,7 +1534,7 @@ build CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/BinaryS
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree2
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree2: CXX_EXECUTABLE_LINKER__BinarySearchTree2_Debug CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/main.cpp.o CMakeFiles/BinarySearchTree2.dir/Examples/Week12/BinarySearchTree2/BinarySearchTree.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/BinarySearchTree2.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1553,7 +1553,7 @@ build cmake_object_order_depends_target_BinarySearchTreePerformance: phony || CM
 
 build CMakeFiles/BinarySearchTreePerformance.dir/Examples/Week12/BinarySearchTreePerformance/main.cpp.o: CXX_COMPILER__BinarySearchTreePerformance_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week12/BinarySearchTreePerformance/main.cpp || cmake_object_order_depends_target_BinarySearchTreePerformance
   DEP_FILE = CMakeFiles/BinarySearchTreePerformance.dir/Examples/Week12/BinarySearchTreePerformance/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/BinarySearchTreePerformance.dir
   OBJECT_FILE_DIR = CMakeFiles/BinarySearchTreePerformance.dir/Examples/Week12/BinarySearchTreePerformance
   TARGET_COMPILE_PDB = CMakeFiles/BinarySearchTreePerformance.dir/
@@ -1568,7 +1568,7 @@ build CMakeFiles/BinarySearchTreePerformance.dir/Examples/Week12/BinarySearchTre
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTreePerformance
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTreePerformance: CXX_EXECUTABLE_LINKER__BinarySearchTreePerformance_Debug CMakeFiles/BinarySearchTreePerformance.dir/Examples/Week12/BinarySearchTreePerformance/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/BinarySearchTreePerformance.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1587,7 +1587,7 @@ build cmake_object_order_depends_target_StackHeap: phony || CMakeFiles/StackHeap
 
 build CMakeFiles/StackHeap.dir/Examples/Week13/StackHeap/main.cpp.o: CXX_COMPILER__StackHeap_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Week13/StackHeap/main.cpp || cmake_object_order_depends_target_StackHeap
   DEP_FILE = CMakeFiles/StackHeap.dir/Examples/Week13/StackHeap/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/StackHeap.dir
   OBJECT_FILE_DIR = CMakeFiles/StackHeap.dir/Examples/Week13/StackHeap
   TARGET_COMPILE_PDB = CMakeFiles/StackHeap.dir/
@@ -1602,7 +1602,7 @@ build CMakeFiles/StackHeap.dir/Examples/Week13/StackHeap/main.cpp.o: CXX_COMPILE
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap: CXX_EXECUTABLE_LINKER__StackHeap_Debug CMakeFiles/StackHeap.dir/Examples/Week13/StackHeap/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/StackHeap.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1621,7 +1621,7 @@ build cmake_object_order_depends_target_Project1Part1: phony || CMakeFiles/Proje
 
 build CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/main.cpp.o: CXX_COMPILER__Project1Part1_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/main.cpp || cmake_object_order_depends_target_Project1Part1
   DEP_FILE = CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Project1Part1.dir
   OBJECT_FILE_DIR = CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1
   TARGET_COMPILE_PDB = CMakeFiles/Project1Part1.dir/
@@ -1629,7 +1629,7 @@ build CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/main.cpp.o: C
 
 build CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/ItemToPurchase.cpp.o: CXX_COMPILER__Project1Part1_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Projects/Project1Part1/ItemToPurchase.cpp || cmake_object_order_depends_target_Project1Part1
   DEP_FILE = CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/ItemToPurchase.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Project1Part1.dir
   OBJECT_FILE_DIR = CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1
   TARGET_COMPILE_PDB = CMakeFiles/Project1Part1.dir/
@@ -1644,7 +1644,7 @@ build CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/ItemToPurchas
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1: CXX_EXECUTABLE_LINKER__Project1Part1_Debug CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/main.cpp.o CMakeFiles/Project1Part1.dir/Examples/Projects/Project1Part1/ItemToPurchase.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/Project1Part1.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -1663,7 +1663,7 @@ build cmake_object_order_depends_target_ProjectPart2: phony || CMakeFiles/Projec
 
 build CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/main.cpp.o: CXX_COMPILER__ProjectPart2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/main.cpp || cmake_object_order_depends_target_ProjectPart2
   DEP_FILE = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/main.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/ProjectPart2.dir
   OBJECT_FILE_DIR = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2
   TARGET_COMPILE_PDB = CMakeFiles/ProjectPart2.dir/
@@ -1671,7 +1671,7 @@ build CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/main.cpp.o: CXX
 
 build CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ItemToPurchase.cpp.o: CXX_COMPILER__ProjectPart2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ItemToPurchase.cpp || cmake_object_order_depends_target_ProjectPart2
   DEP_FILE = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ItemToPurchase.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/ProjectPart2.dir
   OBJECT_FILE_DIR = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2
   TARGET_COMPILE_PDB = CMakeFiles/ProjectPart2.dir/
@@ -1679,7 +1679,7 @@ build CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ItemToPurchase.
 
 build CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ShoppingCart.cpp.o: CXX_COMPILER__ProjectPart2_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Projects/ProjectPart2/ShoppingCart.cpp || cmake_object_order_depends_target_ProjectPart2
   DEP_FILE = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ShoppingCart.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/ProjectPart2.dir
   OBJECT_FILE_DIR = CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2
   TARGET_COMPILE_PDB = CMakeFiles/ProjectPart2.dir/
@@ -1694,7 +1694,7 @@ build CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ShoppingCart.cp
 # Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPart2
 
 build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPart2: CXX_EXECUTABLE_LINKER__ProjectPart2_Debug CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/main.cpp.o CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ItemToPurchase.cpp.o CMakeFiles/ProjectPart2.dir/Examples/Projects/ProjectPart2/ShoppingCart.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
   OBJECT_DIR = CMakeFiles/ProjectPart2.dir
   POST_BUILD = :
   PRE_LINK = :
