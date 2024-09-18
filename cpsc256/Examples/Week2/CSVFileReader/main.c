@@ -39,7 +39,7 @@ int main(int argc, char** argv) {
     int filetype=2;
     
     /* Get the filename from the user */  
-    char filename[LINE];
+    //char filename[LINE];
     //printf("Enter the filename:\n");
     
     //gets(filename);
