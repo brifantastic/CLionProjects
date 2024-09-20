@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 void swap(int* p1, int* p2) {
 

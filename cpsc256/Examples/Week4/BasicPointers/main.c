@@ -36,7 +36,7 @@ int main(int argc, char** argv) {
      * In C, arguments of functions are just numbers or letters - they are just
      * VALUES that get sent to the function. 
      * 
-     * The notation, &x , means "the hexadecinal numerical value 
+     * The notation, &x , means "the hexadecimal numerical value
      * of the MEMORY LOCATION where the variable x is stored" 
      * 
      * - this is called a pointer in C.  
@@ -93,7 +93,7 @@ int main(int argc, char** argv) {
      */
     
     char a[] = "The quick brown fox";
-    char b[] = "jumped over the lazy dog.";
+    char b[] = "jumps over the lazy dog.";
     
     /* Define two pointers, which point to the first character of each string */
     char* pa = &a[0];
