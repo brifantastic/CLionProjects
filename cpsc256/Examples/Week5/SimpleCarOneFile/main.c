@@ -85,14 +85,22 @@ SimpleCar SetModel(SimpleCar car, char* model){
 
 SimpleCar Drive(int dist, SimpleCar car){
     printf("In Drive:  address of car = %p\n",&car);
-    car = SetOdometer(car,GetOdometer(car)+dist);
+
+    int odometer = GetOdometer(car);
+    int newOdometer = odometer + dist;
+    car = SetOdometer(car, newOdometer);
+
     printf("In Drive: address of car = %p\n",&car);
     return car;
 }
 
 SimpleCar Reverse(int dist, SimpleCar car){
     printf("In Reverse:  address of car = %p\n",&car);
-    car = SetOdometer(car,GetOdometer(car)-dist);
+
+    int odometer = GetOdometer(car);
+    int newOdometer = odometer - dist;
+    car = SetOdometer(car, newOdometer);
+
     printf("In Reverse: address of car = %p\n",&car);
     return car;
 }
@@ -141,6 +149,10 @@ int main() {
     SimpleCar myCar = InitCar();
     printf("In main 1:  address of myCar = %p\n",&myCar);
     printf("Mileage = %d\n",GetOdometer(myCar));
+
+    // Example of using the SetOdometer method and the GetOdometer method
+    //myCar = SetOdometer(myCar,100);
+    //printf("Mileage = %d\n",GetOdometer(myCar));
 
     // Drive forward by a specified amount
     myCar = Drive(milesForward,myCar);
