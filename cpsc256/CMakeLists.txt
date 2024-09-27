@@ -34,6 +34,7 @@ add_executable(LockerProblem Examples/Week4/LockerProblem/main.c)
 add_executable(Restaurant_C_Example Examples/Week5/Restaurant_C_Example/main.c)
 add_executable(PointerCar Examples/Week5/PointerCar/main.c Examples/Week5/PointerCar/PointerCar.c)
 add_executable(SimpleCar Examples/Week5/SimpleCar/main.c Examples/Week5/SimpleCar/SimpleCar.c)
+add_executable(SimpleCarOneFile Examples/Week5/SimpleCarOneFile/main.c)
 add_executable(CoinFlip Examples/Week5/CoinFlip/main.c Examples/Week5/CoinFlip/Coin.c)
 # Week 6
 add_executable(HelloWorldCPP Examples/Week6/HelloWorldCPP/main.cpp)
