@@ -2,14 +2,16 @@
 #include <stdlib.h>
 
 int main() {
-    int sum = 0;
-    int i = 0;
 
-    while (i < 50) {
-        sum = sum + i;
-        i = i + 1;
+    int sum=0;
+    int i=0;
+
+    while (i<50) {
+        sum = sum + (i+1);
+        i++;
     }
+    printf("%d",sum);
 
-    printf("Sum of first 50 numbers is %d\n", sum);
+    return 0;
 }
 

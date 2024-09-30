@@ -5,12 +5,18 @@ void swap(int *a, int *b) {
     int temp = *a;
     *a = *b;
     *b = temp;
+    return;
 }
 
 int main() {
-    int a = 10, b = 20;
-    swap(&a, &b);
-    printf("a = %d, b = %d\n", a, b);
+
+    int x = 10;
+    int y = 20;
+
+    swap(&x, &y);
+
+    printf("%d %d \n", x, y);
+
     return 0;
 }
 

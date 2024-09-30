@@ -1,6 +1,7 @@
 Line 1: an integer variabled called x is declared and initialized to 7
 Line 2: a pointer to an integer called ptr is declared, and is initialized to the 
         address of x
-Line 3: the value stored in the memory location pointed to by ptr has three added to it.
+Line 3: the value stored in the memory location pointed to by ptr has three added to it,
+        and is then stored in the memory location pointed to by ptr.
         Thus, the value of x is now 10
 Line 4: the value of x is printed to the screen (the output will be 10)
