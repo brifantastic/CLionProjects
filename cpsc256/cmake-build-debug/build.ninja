@@ -616,6 +616,130 @@ build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip: 
   TARGET_PDB = CoinFlip.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target q1a
+
+
+#############################################
+# Order-only phony target for q1a
+
+build cmake_object_order_depends_target_q1a: phony || CMakeFiles/q1a.dir
+
+build CMakeFiles/q1a.dir/Examples/Midterm2_Practice/q1a.c.o: C_COMPILER__q1a_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1a.c || cmake_object_order_depends_target_q1a
+  DEP_FILE = CMakeFiles/q1a.dir/Examples/Midterm2_Practice/q1a.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/q1a.dir
+  OBJECT_FILE_DIR = CMakeFiles/q1a.dir/Examples/Midterm2_Practice
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target q1a
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a: C_EXECUTABLE_LINKER__q1a_Debug CMakeFiles/q1a.dir/Examples/Midterm2_Practice/q1a.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
+  OBJECT_DIR = CMakeFiles/q1a.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a
+  TARGET_PDB = q1a.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target q1b
+
+
+#############################################
+# Order-only phony target for q1b
+
+build cmake_object_order_depends_target_q1b: phony || CMakeFiles/q1b.dir
+
+build CMakeFiles/q1b.dir/Examples/Midterm2_Practice/q1b.c.o: C_COMPILER__q1b_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q1b.c || cmake_object_order_depends_target_q1b
+  DEP_FILE = CMakeFiles/q1b.dir/Examples/Midterm2_Practice/q1b.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/q1b.dir
+  OBJECT_FILE_DIR = CMakeFiles/q1b.dir/Examples/Midterm2_Practice
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target q1b
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1b
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1b: C_EXECUTABLE_LINKER__q1b_Debug CMakeFiles/q1b.dir/Examples/Midterm2_Practice/q1b.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
+  OBJECT_DIR = CMakeFiles/q1b.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1b
+  TARGET_PDB = q1b.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target q3a
+
+
+#############################################
+# Order-only phony target for q3a
+
+build cmake_object_order_depends_target_q3a: phony || CMakeFiles/q3a.dir
+
+build CMakeFiles/q3a.dir/Examples/Midterm2_Practice/q3a.c.o: C_COMPILER__q3a_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3a.c || cmake_object_order_depends_target_q3a
+  DEP_FILE = CMakeFiles/q3a.dir/Examples/Midterm2_Practice/q3a.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/q3a.dir
+  OBJECT_FILE_DIR = CMakeFiles/q3a.dir/Examples/Midterm2_Practice
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target q3a
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3a
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3a: C_EXECUTABLE_LINKER__q3a_Debug CMakeFiles/q3a.dir/Examples/Midterm2_Practice/q3a.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
+  OBJECT_DIR = CMakeFiles/q3a.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3a
+  TARGET_PDB = q3a.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target q3b
+
+
+#############################################
+# Order-only phony target for q3b
+
+build cmake_object_order_depends_target_q3b: phony || CMakeFiles/q3b.dir
+
+build CMakeFiles/q3b.dir/Examples/Midterm2_Practice/q3b.c.o: C_COMPILER__q3b_unscanned_Debug /Users/brash/CLionProjects/cpsc256/Examples/Midterm2_Practice/q3b.c || cmake_object_order_depends_target_q3b
+  DEP_FILE = CMakeFiles/q3b.dir/Examples/Midterm2_Practice/q3b.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/q3b.dir
+  OBJECT_FILE_DIR = CMakeFiles/q3b.dir/Examples/Midterm2_Practice
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target q3b
+
+
+#############################################
+# Link the executable /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3b
+
+build /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3b: C_EXECUTABLE_LINKER__q3b_Debug CMakeFiles/q3b.dir/Examples/Midterm2_Practice/q3b.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
+  OBJECT_DIR = CMakeFiles/q3b.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3b
+  TARGET_PDB = q3b.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target HelloWorldCPP
 
 
@@ -1664,6 +1788,14 @@ build VectorOfInts: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/Basi
 
 build VoidPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers
 
+build q1a: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a
+
+build q1b: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1b
+
+build q3a: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3a
+
+build q3b: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3b
+
 # =============================================================================
 # Folder targets.
 
@@ -1672,7 +1804,7 @@ build VoidPointers: phony /Users/brash/CLionProjects/cpsc256/Examples/Week4/Basi
 #############################################
 # Folder: /Users/brash/CLionProjects/cpsc256/cmake-build-debug
 
-build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LockerProblem /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjectsPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/InheritancePolymorphism /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibraryZybooks /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MileageTracker /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VectorOfInts /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector2 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree2 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTreePerformance /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPart2
+build all: phony HelloWorld PrimitiveDataTypes /Users/brash/CLionProjects/cpsc256/Examples/Week2/FileReader/FileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/CSVFileReader /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/Declarations /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FormatSpecifiers /Users/brash/CLionProjects/cpsc256/Examples/Week2/CSVFileReader/FunctionExample /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics/FileStatistics /Users/brash/CLionProjects/cpsc256/Examples/Week3/FileStatistics_Headers/FileStatistics_Headers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VoidPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/QuickSort /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LockerProblem /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Restaurant_C_Example /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointerCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/SimpleCar /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CoinFlip /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1a /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q1b /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3a /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/q3b /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/HelloWorldCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicVectorCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PassBy /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjects /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MultipleClasses /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/PointersCPP /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicObjectsPointers /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ArtistAndArtwork /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/CopyConstructorExample /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/FunctionTemplates /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/OperatorOverloading /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/InheritancePolymorphism /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BasicLinkedList /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/LinkListDestructor /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibrary /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BookLibraryZybooks /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/MileageTracker /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/VectorOfInts /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/TemplatedVector2 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTree2 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/BinarySearchTreePerformance /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/StackHeap /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/Project1Part1 /Users/brash/CLionProjects/cpsc256/Examples/Week4/BasicPointers/ProjectPart2
 
 # =============================================================================
 # Built-in targets

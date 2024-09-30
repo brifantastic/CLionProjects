@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-const int LOCKERS = 100;
+const int LOCKERS =100;
 
 void print_lockers(int lockers[], int size){
     int i=0;

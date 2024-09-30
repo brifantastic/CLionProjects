@@ -35,6 +35,13 @@ add_executable(Restaurant_C_Example Examples/Week5/Restaurant_C_Example/main.c)
 add_executable(PointerCar Examples/Week5/PointerCar/main.c Examples/Week5/PointerCar/PointerCar.c)
 add_executable(SimpleCar Examples/Week5/SimpleCar/main.c Examples/Week5/SimpleCar/SimpleCar.c)
 add_executable(CoinFlip Examples/Week5/CoinFlip/main.c Examples/Week5/CoinFlip/Coin.c)
+
+# Midterm 2 Practice
+add_executable(q1a Examples/Midterm2_Practice/q1a.c)
+add_executable(q1b Examples/Midterm2_Practice/q1b.c)
+add_executable(q3a Examples/Midterm2_Practice/q3a.c)
+add_executable(q3b Examples/Midterm2_Practice/q3b.c)
+
 # Week 6
 add_executable(HelloWorldCPP Examples/Week6/HelloWorldCPP/main.cpp)
 add_executable(BasicVectorCPP Examples/Week6/BasicVectorCPP/main.cpp)
